@@ -1,0 +1,454 @@
+Algorithm,Mean,Rank,Lambda,Metric,MetricLabel,Direction,DisplayMean,DisplayUnit,DefinedSeeds
+ProposedAdaptive,0.9975407436624946,1,2.0,AcceptanceRatio,Acceptance,higher,99.75407436624945,%,30
+FullJointRepair,0.9939408209442706,2,2.0,AcceptanceRatio,Acceptance,higher,99.39408209442706,%,30
+AlwaysJointRouting,0.9831084888849548,3,2.0,AcceptanceRatio,Acceptance,higher,98.31084888849549,%,30
+CompactNoRepair,0.9829420617503651,4,2.0,AcceptanceRatio,Acceptance,higher,98.2942061750365,%,30
+GreenCostRouting,0.982025398043393,5,2.0,AcceptanceRatio,Acceptance,higher,98.2025398043393,%,30
+ProposedAdaptive,0.7831504588845256,1,2.0,R_C,Admission revenue/cost,higher,0.7831504588845256,ratio,30
+CompactNoRepair,0.7793135910891674,2,2.0,R_C,Admission revenue/cost,higher,0.7793135910891674,ratio,30
+FullJointRepair,0.765425692758185,3,2.0,R_C,Admission revenue/cost,higher,0.765425692758185,ratio,30
+VirnePSO,0.7457688334718414,4,2.0,R_C,Admission revenue/cost,higher,0.7457688334718414,ratio,30
+GreenCostRouting,0.7337019223987834,5,2.0,R_C,Admission revenue/cost,higher,0.7337019223987834,ratio,30
+ProposedAdaptive,0.7805592907015562,1,2.0,Served_R_C,Served revenue/cost,higher,0.7805592907015562,ratio,30
+CompactNoRepair,0.7796920780907884,2,2.0,Served_R_C,Served revenue/cost,higher,0.7796920780907884,ratio,30
+FullJointRepair,0.7657141228406794,3,2.0,Served_R_C,Served revenue/cost,higher,0.7657141228406794,ratio,30
+VirnePSO,0.7465595181009235,4,2.0,Served_R_C,Served revenue/cost,higher,0.7465595181009235,ratio,30
+GreenCostRouting,0.7326114675764647,5,2.0,Served_R_C,Served revenue/cost,higher,0.7326114675764647,ratio,30
+VirneFFD,19707.242754138486,1,2.0,Energy_Wh,Total energy,lower,19707.242754138486,Wh,30
+VirneRWMaxMatch,23235.694036935958,2,2.0,Energy_Wh,Total energy,lower,23235.694036935958,Wh,30
+VirneGRC,23687.10285059378,3,2.0,Energy_Wh,Total energy,lower,23687.10285059378,Wh,30
+EnergyAware,33708.22608400838,4,2.0,Energy_Wh,Total energy,lower,33708.22608400838,Wh,30
+VirnePSO,44239.399494840036,5,2.0,Energy_Wh,Total energy,lower,44239.399494840036,Wh,30
+GreenCostRouting,118.12978782209795,1,2.0,EnergyPerAccepted_Wh,Energy/accepted request,lower,118.12978782209795,Wh/request,30
+ProposedAdaptive,119.43274378641726,2,2.0,EnergyPerAccepted_Wh,Energy/accepted request,lower,119.43274378641726,Wh/request,30
+CompactNoRepair,121.2575768990789,3,2.0,EnergyPerAccepted_Wh,Energy/accepted request,lower,121.2575768990789,Wh/request,30
+FullJointRepair,122.22740407752296,4,2.0,EnergyPerAccepted_Wh,Energy/accepted request,lower,122.22740407752296,Wh/request,30
+AlwaysJointRouting,132.2662174061398,5,2.0,EnergyPerAccepted_Wh,Energy/accepted request,lower,132.2662174061398,Wh/request,30
+GreenCostRouting,0.24264884006844892,1,2.0,EnergyPerServedRequestSecond_Wh,Energy/served request-second,lower,0.24264884006844892,Wh/request-second,30
+ProposedAdaptive,0.24535891985458583,2,2.0,EnergyPerServedRequestSecond_Wh,Energy/served request-second,lower,0.24535891985458583,Wh/request-second,30
+CompactNoRepair,0.2492532057878184,3,2.0,EnergyPerServedRequestSecond_Wh,Energy/served request-second,lower,0.2492532057878184,Wh/request-second,30
+FullJointRepair,0.25124079300092444,4,2.0,EnergyPerServedRequestSecond_Wh,Energy/served request-second,lower,0.25124079300092444,Wh/request-second,30
+AlwaysJointRouting,0.27255776788791297,5,2.0,EnergyPerServedRequestSecond_Wh,Energy/served request-second,lower,0.27255776788791297,Wh/request-second,30
+GreenCostRouting,0.001657511185966593,1,2.0,EnergyPerServedCPUUnitSecond_Wh,Energy/served CPU-second,lower,0.001657511185966593,Wh/CPU-unit-second,30
+ProposedAdaptive,0.0016680540469997793,2,2.0,EnergyPerServedCPUUnitSecond_Wh,Energy/served CPU-second,lower,0.0016680540469997793,Wh/CPU-unit-second,30
+CompactNoRepair,0.0017031639810021243,3,2.0,EnergyPerServedCPUUnitSecond_Wh,Energy/served CPU-second,lower,0.0017031639810021243,Wh/CPU-unit-second,30
+FullJointRepair,0.001710001575953824,4,2.0,EnergyPerServedCPUUnitSecond_Wh,Energy/served CPU-second,lower,0.001710001575953824,Wh/CPU-unit-second,30
+AlwaysJointRouting,0.0018634788917536093,5,2.0,EnergyPerServedCPUUnitSecond_Wh,Energy/served CPU-second,lower,0.0018634788917536093,Wh/CPU-unit-second,30
+ProposedAdaptive,0.000664816824088844,1,2.0,EnergyPerServedBandwidthUnitSecond_Wh,Energy/served BW-second,lower,0.000664816824088844,Wh/BW-unit-second,30
+GreenCostRouting,0.0006649224198587463,2,2.0,EnergyPerServedBandwidthUnitSecond_Wh,Energy/served BW-second,lower,0.0006649224198587463,Wh/BW-unit-second,30
+FullJointRepair,0.0006823614257543563,3,2.0,EnergyPerServedBandwidthUnitSecond_Wh,Energy/served BW-second,lower,0.0006823614257543563,Wh/BW-unit-second,30
+CompactNoRepair,0.0006826570601231218,4,2.0,EnergyPerServedBandwidthUnitSecond_Wh,Energy/served BW-second,lower,0.0006826570601231218,Wh/BW-unit-second,30
+AlwaysJointRouting,0.0007484675219898741,5,2.0,EnergyPerServedBandwidthUnitSecond_Wh,Energy/served BW-second,lower,0.0007484675219898741,Wh/BW-unit-second,30
+VirneFFD,0.0016932032762128372,1,2.0,MeanEmbeddingTime,Mean embedding time,lower,1.6932032762128373,ms,30
+VirneGRC,0.002018110938842211,2,2.0,MeanEmbeddingTime,Mean embedding time,lower,2.018110938842211,ms,30
+GreedyCSP,0.0021565971459752914,3,2.0,MeanEmbeddingTime,Mean embedding time,lower,2.1565971459752915,ms,30
+VirneRWMaxMatch,0.0022925348345356907,4,2.0,MeanEmbeddingTime,Mean embedding time,lower,2.2925348345356906,ms,30
+VirneRWBFS,0.0025026376891891956,5,2.0,MeanEmbeddingTime,Mean embedding time,lower,2.5026376891891955,ms,30
+VirneFFD,0.0031123636666097803,1,2.0,P95EmbeddingTime,P95 embedding time,lower,3.1123636666097805,ms,30
+VirneGRC,0.003518540333311648,2,2.0,P95EmbeddingTime,P95 embedding time,lower,3.518540333311648,ms,30
+VirneRWMaxMatch,0.0037883449999511257,3,2.0,P95EmbeddingTime,P95 embedding time,lower,3.788344999951126,ms,30
+GreedyCSP,0.005824342500003088,4,2.0,P95EmbeddingTime,P95 embedding time,lower,5.824342500003088,ms,30
+VirneRWBFS,0.006164420999983422,5,2.0,P95EmbeddingTime,P95 embedding time,lower,6.164420999983422,ms,30
+VirneFFD,0.0040950666332695,1,2.0,P99EmbeddingTime,P99 embedding time,lower,4.0950666332695,ms,30
+VirneGRC,0.004537679866733317,2,2.0,P99EmbeddingTime,P99 embedding time,lower,4.537679866733317,ms,30
+VirneRWMaxMatch,0.00478246023326119,3,2.0,P99EmbeddingTime,P99 embedding time,lower,4.78246023326119,ms,30
+GreedyCSP,0.008372983099998538,4,2.0,P99EmbeddingTime,P99 embedding time,lower,8.372983099998537,ms,30
+VirneRWBFS,0.009221516633333213,5,2.0,P99EmbeddingTime,P99 embedding time,lower,9.221516633333213,ms,30
+VirneFFD,0.6588351233346657,1,2.0,ExecutionTime,Total embedding time,lower,0.6588351233346657,seconds,30
+VirneGRC,0.7848206666670194,2,2.0,ExecutionTime,Total embedding time,lower,0.7848206666670194,seconds,30
+GreedyCSP,0.8391881466657044,3,2.0,ExecutionTime,Total embedding time,lower,0.8391881466657044,seconds,30
+VirneRWMaxMatch,0.8917559099988163,4,2.0,ExecutionTime,Total embedding time,lower,0.8917559099988163,seconds,30
+VirneRWBFS,0.9747307299988279,5,2.0,ExecutionTime,Total embedding time,lower,0.9747307299988279,seconds,30
+ProposedAdaptive,1.3791368904270231,1,2.0,MeanHops,Mean hops,lower,1.3791368904270231,hops,30
+CompactNoRepair,1.3842838281666265,2,2.0,MeanHops,Mean hops,lower,1.3842838281666265,hops,30
+FullJointRepair,1.4154023943838812,3,2.0,MeanHops,Mean hops,lower,1.4154023943838812,hops,30
+VirnePSO,1.4885280169195747,4,2.0,MeanHops,Mean hops,lower,1.4885280169195747,hops,30
+GreenCostRouting,1.4998207000511454,5,2.0,MeanHops,Mean hops,lower,1.4998207000511454,hops,30
+ProposedAdaptive,0.2792850845614017,1,2.0,NodeUtil,CPU utilization (highest usage),higher,27.92850845614017,%,30
+FullJointRepair,0.27782565733576525,2,2.0,NodeUtil,CPU utilization (highest usage),higher,27.782565733576526,%,30
+GreenCostRouting,0.27366523873501347,3,2.0,NodeUtil,CPU utilization (highest usage),higher,27.366523873501347,%,30
+CompactNoRepair,0.27363215950740283,4,2.0,NodeUtil,CPU utilization (highest usage),higher,27.363215950740283,%,30
+FullHopFootprint,0.273029742037975,5,2.0,NodeUtil,CPU utilization (highest usage),higher,27.302974203797497,%,30
+NodeRankSearch,0.26789491888585404,1,2.0,LinkUtil,BW utilization (highest usage),higher,26.789491888585403,%,30
+GRCRankedSearch,0.26496613889833276,2,2.0,LinkUtil,BW utilization (highest usage),higher,26.496613889833277,%,30
+NodeRankScoreOnly,0.2649078717906351,3,2.0,LinkUtil,BW utilization (highest usage),higher,26.490787179063506,%,30
+GRCScoreOnly,0.2622557880119181,4,2.0,LinkUtil,BW utilization (highest usage),higher,26.225578801191812,%,30
+FixedEnergyWeight,0.25196671567145107,5,2.0,LinkUtil,BW utilization (highest usage),higher,25.196671567145106,%,30
+ProposedAdaptive,0.9595572547442824,1,4.0,AcceptanceRatio,Acceptance,higher,95.95572547442825,%,30
+FullJointRepair,0.9309856231681801,2,4.0,AcceptanceRatio,Acceptance,higher,93.09856231681802,%,30
+CompactNoRepair,0.9207538308758904,3,4.0,AcceptanceRatio,Acceptance,higher,92.07538308758903,%,30
+GreenCostRouting,0.9162431001696341,4,4.0,AcceptanceRatio,Acceptance,higher,91.6243100169634,%,30
+AlwaysJointRouting,0.8885687185053249,5,4.0,AcceptanceRatio,Acceptance,higher,88.8568718505325,%,30
+CompactNoRepair,0.7486946540239959,1,4.0,R_C,Admission revenue/cost,higher,0.7486946540239959,ratio,30
+VirnePSO,0.7465898763494816,2,4.0,R_C,Admission revenue/cost,higher,0.7465898763494816,ratio,30
+ProposedAdaptive,0.7458280086325956,3,4.0,R_C,Admission revenue/cost,higher,0.7458280086325956,ratio,30
+GreenCostRouting,0.7310195327413626,4,4.0,R_C,Admission revenue/cost,higher,0.7310195327413626,ratio,30
+FullJointRepair,0.71964475791021,5,4.0,R_C,Admission revenue/cost,higher,0.71964475791021,ratio,30
+CompactNoRepair,0.7499084188089575,1,4.0,Served_R_C,Served revenue/cost,higher,0.7499084188089575,ratio,30
+ProposedAdaptive,0.7484362626781228,2,4.0,Served_R_C,Served revenue/cost,higher,0.7484362626781228,ratio,30
+VirnePSO,0.7467432704009151,3,4.0,Served_R_C,Served revenue/cost,higher,0.7467432704009151,ratio,30
+GreenCostRouting,0.73175490000625,4,4.0,Served_R_C,Served revenue/cost,higher,0.73175490000625,ratio,30
+FullJointRepair,0.7204474161599937,5,4.0,Served_R_C,Served revenue/cost,higher,0.7204474161599937,ratio,30
+VirneFFD,31965.35146761486,1,4.0,Energy_Wh,Total energy,lower,31965.35146761486,Wh,30
+VirneRWMaxMatch,35459.345873015765,2,4.0,Energy_Wh,Total energy,lower,35459.345873015765,Wh,30
+VirneGRC,35995.077818003,3,4.0,Energy_Wh,Total energy,lower,35995.077818003,Wh,30
+EnergyAware,44741.99671594161,4,4.0,Energy_Wh,Total energy,lower,44741.99671594161,Wh,30
+GreedyCSP,59027.91399408573,5,4.0,Energy_Wh,Total energy,lower,59027.91399408573,Wh,30
+ProposedAdaptive,97.70231417765378,1,4.0,EnergyPerAccepted_Wh,Energy/accepted request,lower,97.70231417765378,Wh/request,30
+GreenCostRouting,98.29996557754208,2,4.0,EnergyPerAccepted_Wh,Energy/accepted request,lower,98.29996557754208,Wh/request,30
+CompactNoRepair,99.07087698992787,3,4.0,EnergyPerAccepted_Wh,Energy/accepted request,lower,99.07087698992787,Wh/request,30
+FullJointRepair,99.63424207673668,4,4.0,EnergyPerAccepted_Wh,Energy/accepted request,lower,99.63424207673668,Wh/request,30
+AlwaysJointRouting,103.78473836075258,5,4.0,EnergyPerAccepted_Wh,Energy/accepted request,lower,103.78473836075258,Wh/request,30
+ProposedAdaptive,0.20161849519743155,1,4.0,EnergyPerServedRequestSecond_Wh,Energy/served request-second,lower,0.20161849519743155,Wh/request-second,30
+GreenCostRouting,0.20259751824157737,2,4.0,EnergyPerServedRequestSecond_Wh,Energy/served request-second,lower,0.20259751824157737,Wh/request-second,30
+CompactNoRepair,0.20423888972852666,3,4.0,EnergyPerServedRequestSecond_Wh,Energy/served request-second,lower,0.20423888972852666,Wh/request-second,30
+FullJointRepair,0.20547647680066247,4,4.0,EnergyPerServedRequestSecond_Wh,Energy/served request-second,lower,0.20547647680066247,Wh/request-second,30
+AlwaysJointRouting,0.21450905746300988,5,4.0,EnergyPerServedRequestSecond_Wh,Energy/served request-second,lower,0.21450905746300988,Wh/request-second,30
+ProposedAdaptive,0.001386416830125514,1,4.0,EnergyPerServedCPUUnitSecond_Wh,Energy/served CPU-second,lower,0.001386416830125514,Wh/CPU-unit-second,30
+GreenCostRouting,0.0014130758198768849,2,4.0,EnergyPerServedCPUUnitSecond_Wh,Energy/served CPU-second,lower,0.0014130758198768849,Wh/CPU-unit-second,30
+CompactNoRepair,0.0014209753925106372,3,4.0,EnergyPerServedCPUUnitSecond_Wh,Energy/served CPU-second,lower,0.0014209753925106372,Wh/CPU-unit-second,30
+FullJointRepair,0.0014230532521261794,4,4.0,EnergyPerServedCPUUnitSecond_Wh,Energy/served CPU-second,lower,0.0014230532521261794,Wh/CPU-unit-second,30
+AlwaysJointRouting,0.0015061096070653228,5,4.0,EnergyPerServedCPUUnitSecond_Wh,Energy/served CPU-second,lower,0.0015061096070653228,Wh/CPU-unit-second,30
+ProposedAdaptive,0.0005598820041150967,1,4.0,EnergyPerServedBandwidthUnitSecond_Wh,Energy/served BW-second,lower,0.0005598820041150967,Wh/BW-unit-second,30
+FullJointRepair,0.0005805582800835474,2,4.0,EnergyPerServedBandwidthUnitSecond_Wh,Energy/served BW-second,lower,0.0005805582800835474,Wh/BW-unit-second,30
+GreenCostRouting,0.0005817002682132545,3,4.0,EnergyPerServedBandwidthUnitSecond_Wh,Energy/served BW-second,lower,0.0005817002682132545,Wh/BW-unit-second,30
+CompactNoRepair,0.0005828848349952226,4,4.0,EnergyPerServedBandwidthUnitSecond_Wh,Energy/served BW-second,lower,0.0005828848349952226,Wh/BW-unit-second,30
+AlwaysJointRouting,0.0006248121487180939,5,4.0,EnergyPerServedBandwidthUnitSecond_Wh,Energy/served BW-second,lower,0.0006248121487180939,Wh/BW-unit-second,30
+GreedyCSP,0.0014972745214186125,1,4.0,MeanEmbeddingTime,Mean embedding time,lower,1.4972745214186125,ms,30
+VirneFFD,0.0015349923056736856,2,4.0,MeanEmbeddingTime,Mean embedding time,lower,1.5349923056736856,ms,30
+VirneGRC,0.001820647986968349,3,4.0,MeanEmbeddingTime,Mean embedding time,lower,1.820647986968349,ms,30
+VirneRWMaxMatch,0.0021651512730304933,4,4.0,MeanEmbeddingTime,Mean embedding time,lower,2.165151273030493,ms,30
+VirneRWBFS,0.002540980672881739,5,4.0,MeanEmbeddingTime,Mean embedding time,lower,2.540980672881739,ms,30
+VirneFFD,0.0027736468334205707,1,4.0,P95EmbeddingTime,P95 embedding time,lower,2.7736468334205706,ms,30
+VirneGRC,0.003064047666642484,2,4.0,P95EmbeddingTime,P95 embedding time,lower,3.0640476666424843,ms,30
+VirneRWMaxMatch,0.003565979666530741,3,4.0,P95EmbeddingTime,P95 embedding time,lower,3.5659796665307413,ms,30
+GreedyCSP,0.004725851000016517,4,4.0,P95EmbeddingTime,P95 embedding time,lower,4.725851000016517,ms,30
+VirneRWBFS,0.005557338166709086,5,4.0,P95EmbeddingTime,P95 embedding time,lower,5.557338166709086,ms,30
+VirneFFD,0.0037157154998033837,1,4.0,P99EmbeddingTime,P99 embedding time,lower,3.7157154998033834,ms,30
+VirneGRC,0.004066160099822202,2,4.0,P99EmbeddingTime,P99 embedding time,lower,4.066160099822202,ms,30
+VirneRWMaxMatch,0.004634634833276625,3,4.0,P99EmbeddingTime,P99 embedding time,lower,4.634634833276625,ms,30
+GreedyCSP,0.006821425233263651,4,4.0,P99EmbeddingTime,P99 embedding time,lower,6.821425233263652,ms,30
+VirneRWBFS,0.007923870833352638,5,4.0,P99EmbeddingTime,P99 embedding time,lower,7.923870833352638,ms,30
+GreedyCSP,1.1757305766634394,1,4.0,ExecutionTime,Total embedding time,lower,1.1757305766634394,seconds,30
+VirneFFD,1.2066127733322294,2,4.0,ExecutionTime,Total embedding time,lower,1.2066127733322294,seconds,30
+VirneGRC,1.4293218800038328,3,4.0,ExecutionTime,Total embedding time,lower,1.4293218800038328,seconds,30
+VirneRWMaxMatch,1.7015444966665807,4,4.0,ExecutionTime,Total embedding time,lower,1.7015444966665807,seconds,30
+VirneRWBFS,1.9949099266683334,5,4.0,ExecutionTime,Total embedding time,lower,1.9949099266683334,seconds,30
+CompactNoRepair,1.4656258338048103,1,4.0,MeanHops,Mean hops,lower,1.4656258338048103,hops,30
+ProposedAdaptive,1.4816906590424153,2,4.0,MeanHops,Mean hops,lower,1.4816906590424153,hops,30
+VirnePSO,1.4985380955965353,3,4.0,MeanHops,Mean hops,lower,1.4985380955965353,hops,30
+GreenCostRouting,1.5120727923788633,4,4.0,MeanHops,Mean hops,lower,1.5120727923788633,hops,30
+FullJointRepair,1.5432315291864642,5,4.0,MeanHops,Mean hops,lower,1.5432315291864642,hops,30
+ProposedAdaptive,0.5330403442983772,1,4.0,NodeUtil,CPU utilization (highest usage),higher,53.30403442983772,%,30
+FullJointRepair,0.5136991966174105,2,4.0,NodeUtil,CPU utilization (highest usage),higher,51.36991966174105,%,30
+CompactNoRepair,0.5059896624463709,3,4.0,NodeUtil,CPU utilization (highest usage),higher,50.59896624463709,%,30
+GreenCostRouting,0.5024365581434896,4,4.0,NodeUtil,CPU utilization (highest usage),higher,50.24365581434896,%,30
+AlwaysJointRouting,0.48259908734937995,5,4.0,NodeUtil,CPU utilization (highest usage),higher,48.259908734937994,%,30
+NodeRankSearch,0.44860565999360774,1,4.0,LinkUtil,BW utilization (highest usage),higher,44.86056599936077,%,30
+GRCRankedSearch,0.4428992045605615,2,4.0,LinkUtil,BW utilization (highest usage),higher,44.289920456056144,%,30
+NodeRankScoreOnly,0.4393912663839661,3,4.0,LinkUtil,BW utilization (highest usage),higher,43.93912663839661,%,30
+GRCScoreOnly,0.43419890211630363,4,4.0,LinkUtil,BW utilization (highest usage),higher,43.41989021163036,%,30
+FixedEnergyWeight,0.41713984704762397,5,4.0,LinkUtil,BW utilization (highest usage),higher,41.713984704762396,%,30
+ProposedAdaptive,0.8243197227708259,1,6.0,AcceptanceRatio,Acceptance,higher,82.4319722770826,%,30
+FullJointRepair,0.7995089518700254,2,6.0,AcceptanceRatio,Acceptance,higher,79.95089518700253,%,30
+CompactNoRepair,0.7986760362725553,3,6.0,AcceptanceRatio,Acceptance,higher,79.86760362725553,%,30
+GreenCostRouting,0.7981810592961608,4,6.0,AcceptanceRatio,Acceptance,higher,79.81810592961608,%,30
+FullHopFootprint,0.758391841533411,5,6.0,AcceptanceRatio,Acceptance,higher,75.8391841533411,%,30
+VirnePSO,0.7487847499667268,1,6.0,R_C,Admission revenue/cost,higher,0.7487847499667268,ratio,30
+CompactNoRepair,0.7116994347375244,2,6.0,R_C,Admission revenue/cost,higher,0.7116994347375244,ratio,30
+GreenCostRouting,0.7020926646960515,3,6.0,R_C,Admission revenue/cost,higher,0.7020926646960515,ratio,30
+ProposedAdaptive,0.6995099111564843,4,6.0,R_C,Admission revenue/cost,higher,0.6995099111564843,ratio,30
+VirneRWMaxMatch,0.6988817047779173,5,6.0,R_C,Admission revenue/cost,higher,0.6988817047779173,ratio,30
+VirnePSO,0.7484929207468601,1,6.0,Served_R_C,Served revenue/cost,higher,0.7484929207468601,ratio,30
+CompactNoRepair,0.7121886573145058,2,6.0,Served_R_C,Served revenue/cost,higher,0.7121886573145058,ratio,30
+GreenCostRouting,0.7031255879362602,3,6.0,Served_R_C,Served revenue/cost,higher,0.7031255879362602,ratio,30
+ProposedAdaptive,0.7001206774514891,4,6.0,Served_R_C,Served revenue/cost,higher,0.7001206774514891,ratio,30
+VirneRWMaxMatch,0.6992322393001683,5,6.0,Served_R_C,Served revenue/cost,higher,0.6992322393001683,ratio,30
+VirneFFD,39994.492664740974,1,6.0,Energy_Wh,Total energy,lower,39994.492664740974,Wh,30
+VirneRWMaxMatch,43337.86526549808,2,6.0,Energy_Wh,Total energy,lower,43337.86526549808,Wh,30
+VirneGRC,44752.912788494614,3,6.0,Energy_Wh,Total energy,lower,44752.912788494614,Wh,30
+EnergyAware,50870.457978615734,4,6.0,Energy_Wh,Total energy,lower,50870.457978615734,Wh,30
+GreedyCSP,64100.27336146147,5,6.0,Energy_Wh,Total energy,lower,64100.27336146147,Wh,30
+GreenCostRouting,86.5869107787549,1,6.0,EnergyPerAccepted_Wh,Energy/accepted request,lower,86.5869107787549,Wh/request,30
+CompactNoRepair,86.6884610803126,2,6.0,EnergyPerAccepted_Wh,Energy/accepted request,lower,86.6884610803126,Wh/request,30
+ProposedAdaptive,86.75547564639375,3,6.0,EnergyPerAccepted_Wh,Energy/accepted request,lower,86.75547564639375,Wh/request,30
+FullJointRepair,87.58321483334247,4,6.0,EnergyPerAccepted_Wh,Energy/accepted request,lower,87.58321483334247,Wh/request,30
+NoCompactPlacement,89.80348567215343,5,6.0,EnergyPerAccepted_Wh,Energy/accepted request,lower,89.80348567215343,Wh/request,30
+ProposedAdaptive,0.1782242624130723,1,6.0,EnergyPerServedRequestSecond_Wh,Energy/served request-second,lower,0.1782242624130723,Wh/request-second,30
+CompactNoRepair,0.17875965452596548,2,6.0,EnergyPerServedRequestSecond_Wh,Energy/served request-second,lower,0.17875965452596548,Wh/request-second,30
+GreenCostRouting,0.1787860257646554,3,6.0,EnergyPerServedRequestSecond_Wh,Energy/served request-second,lower,0.1787860257646554,Wh/request-second,30
+FullJointRepair,0.18012941332159732,4,6.0,EnergyPerServedRequestSecond_Wh,Energy/served request-second,lower,0.18012941332159732,Wh/request-second,30
+NoJointRepair,0.18489573015260066,5,6.0,EnergyPerServedRequestSecond_Wh,Energy/served request-second,lower,0.18489573015260066,Wh/request-second,30
+ProposedAdaptive,0.0012648850859658387,1,6.0,EnergyPerServedCPUUnitSecond_Wh,Energy/served CPU-second,lower,0.0012648850859658387,Wh/CPU-unit-second,30
+CompactNoRepair,0.001290941023011028,2,6.0,EnergyPerServedCPUUnitSecond_Wh,Energy/served CPU-second,lower,0.001290941023011028,Wh/CPU-unit-second,30
+GreenCostRouting,0.001292016174003801,3,6.0,EnergyPerServedCPUUnitSecond_Wh,Energy/served CPU-second,lower,0.001292016174003801,Wh/CPU-unit-second,30
+FullJointRepair,0.0012939486386121047,4,6.0,EnergyPerServedCPUUnitSecond_Wh,Energy/served CPU-second,lower,0.0012939486386121047,Wh/CPU-unit-second,30
+FullHopFootprint,0.001356718958865038,5,6.0,EnergyPerServedCPUUnitSecond_Wh,Energy/served CPU-second,lower,0.001356718958865038,Wh/CPU-unit-second,30
+ProposedAdaptive,0.0005293867924779544,1,6.0,EnergyPerServedBandwidthUnitSecond_Wh,Energy/served BW-second,lower,0.0005293867924779544,Wh/BW-unit-second,30
+FullJointRepair,0.0005501329235582678,2,6.0,EnergyPerServedBandwidthUnitSecond_Wh,Energy/served BW-second,lower,0.0005501329235582678,Wh/BW-unit-second,30
+CompactNoRepair,0.0005508765035030927,3,6.0,EnergyPerServedBandwidthUnitSecond_Wh,Energy/served BW-second,lower,0.0005508765035030927,Wh/BW-unit-second,30
+GreenCostRouting,0.00055227620798017,4,6.0,EnergyPerServedBandwidthUnitSecond_Wh,Energy/served BW-second,lower,0.00055227620798017,Wh/BW-unit-second,30
+ConflictRepair,0.0005883272152539813,5,6.0,EnergyPerServedBandwidthUnitSecond_Wh,Energy/served BW-second,lower,0.0005883272152539813,Wh/BW-unit-second,30
+GreedyCSP,0.0011720395945320416,1,6.0,MeanEmbeddingTime,Mean embedding time,lower,1.1720395945320417,ms,30
+VirneFFD,0.00155214185951347,2,6.0,MeanEmbeddingTime,Mean embedding time,lower,1.5521418595134702,ms,30
+VirneGRC,0.001855751685330898,3,6.0,MeanEmbeddingTime,Mean embedding time,lower,1.855751685330898,ms,30
+VirneRWMaxMatch,0.002162538072898085,4,6.0,MeanEmbeddingTime,Mean embedding time,lower,2.162538072898085,ms,30
+VirneRWBFS,0.002648212329954118,5,6.0,MeanEmbeddingTime,Mean embedding time,lower,2.648212329954118,ms,30
+VirneFFD,0.002805993333449805,1,6.0,P95EmbeddingTime,P95 embedding time,lower,2.805993333449805,ms,30
+VirneGRC,0.0031516291670474553,2,6.0,P95EmbeddingTime,P95 embedding time,lower,3.151629167047455,ms,30
+VirneRWMaxMatch,0.0035641393333723194,3,6.0,P95EmbeddingTime,P95 embedding time,lower,3.5641393333723195,ms,30
+GreedyCSP,0.003997214500083525,4,6.0,P95EmbeddingTime,P95 embedding time,lower,3.997214500083525,ms,30
+VirneRWBFS,0.005441886666828091,5,6.0,P95EmbeddingTime,P95 embedding time,lower,5.441886666828091,ms,30
+VirneFFD,0.0036310421332230655,1,6.0,P99EmbeddingTime,P99 embedding time,lower,3.6310421332230653,ms,30
+VirneGRC,0.00405604870027552,2,6.0,P99EmbeddingTime,P99 embedding time,lower,4.05604870027552,ms,30
+VirneRWMaxMatch,0.004488414899891722,3,6.0,P99EmbeddingTime,P99 embedding time,lower,4.488414899891723,ms,30
+GreedyCSP,0.006135320899876509,4,6.0,P99EmbeddingTime,P99 embedding time,lower,6.1353208998765085,ms,30
+VirneRWBFS,0.007489460633447373,5,6.0,P99EmbeddingTime,P99 embedding time,lower,7.489460633447373,ms,30
+GreedyCSP,1.3950246333308314,1,6.0,ExecutionTime,Total embedding time,lower,1.3950246333308314,seconds,30
+VirneFFD,1.8508046366604807,2,6.0,ExecutionTime,Total embedding time,lower,1.8508046366604807,seconds,30
+VirneGRC,2.2123235600112823,3,6.0,ExecutionTime,Total embedding time,lower,2.2123235600112823,seconds,30
+VirneRWMaxMatch,2.576687126664789,4,6.0,ExecutionTime,Total embedding time,lower,2.576687126664789,seconds,30
+VirneRWBFS,3.1544593366649374,5,6.0,ExecutionTime,Total embedding time,lower,3.1544593366649374,seconds,30
+VirnePSO,1.5025820473409617,1,6.0,MeanHops,Mean hops,lower,1.5025820473409617,hops,30
+CompactNoRepair,1.5773250705503303,2,6.0,MeanHops,Mean hops,lower,1.5773250705503303,hops,30
+GreenCostRouting,1.605272399191942,3,6.0,MeanHops,Mean hops,lower,1.605272399191942,hops,30
+ProposedAdaptive,1.6250327372157707,4,6.0,MeanHops,Mean hops,lower,1.6250327372157707,hops,30
+VirneRWMaxMatch,1.6441463565804992,5,6.0,MeanHops,Mean hops,lower,1.6441463565804992,hops,30
+ProposedAdaptive,0.6756500627054133,1,6.0,NodeUtil,CPU utilization (highest usage),higher,67.56500627054133,%,30
+FullJointRepair,0.6467503920534111,2,6.0,NodeUtil,CPU utilization (highest usage),higher,64.67503920534111,%,30
+CompactNoRepair,0.6410017292429394,3,6.0,NodeUtil,CPU utilization (highest usage),higher,64.10017292429394,%,30
+GreenCostRouting,0.6392826425954496,4,6.0,NodeUtil,CPU utilization (highest usage),higher,63.92826425954497,%,30
+FullHopFootprint,0.6044039078833473,5,6.0,NodeUtil,CPU utilization (highest usage),higher,60.44039078833473,%,30
+NodeRankSearch,0.531522913757547,1,6.0,LinkUtil,BW utilization (highest usage),higher,53.1522913757547,%,30
+GRCRankedSearch,0.5265673528104775,2,6.0,LinkUtil,BW utilization (highest usage),higher,52.65673528104775,%,30
+NodeRankScoreOnly,0.521120257239931,3,6.0,LinkUtil,BW utilization (highest usage),higher,52.112025723993106,%,30
+GRCScoreOnly,0.5117759812767051,4,6.0,LinkUtil,BW utilization (highest usage),higher,51.17759812767051,%,30
+AlwaysJointRouting,0.5025302043285411,5,6.0,LinkUtil,BW utilization (highest usage),higher,50.253020432854115,%,30
+ProposedAdaptive,0.6999091667134592,1,8.0,AcceptanceRatio,Acceptance,higher,69.99091667134591,%,30
+GreenCostRouting,0.6879757930553443,2,8.0,AcceptanceRatio,Acceptance,higher,68.79757930553443,%,30
+FullJointRepair,0.6868225832180436,3,8.0,AcceptanceRatio,Acceptance,higher,68.68225832180435,%,30
+CompactNoRepair,0.6850700325887964,4,8.0,AcceptanceRatio,Acceptance,higher,68.50700325887964,%,30
+AlwaysJointRouting,0.6573934732287078,5,8.0,AcceptanceRatio,Acceptance,higher,65.73934732287078,%,30
+VirnePSO,0.7521920474876431,1,8.0,R_C,Admission revenue/cost,higher,0.7521920474876431,ratio,30
+VirneRWMaxMatch,0.6989134079887448,2,8.0,R_C,Admission revenue/cost,higher,0.6989134079887448,ratio,30
+VirneGRC,0.6959059281184301,3,8.0,R_C,Admission revenue/cost,higher,0.6959059281184301,ratio,30
+CompactNoRepair,0.6897824822240319,4,8.0,R_C,Admission revenue/cost,higher,0.6897824822240319,ratio,30
+GreenCostRouting,0.6836390556494163,5,8.0,R_C,Admission revenue/cost,higher,0.6836390556494163,ratio,30
+VirnePSO,0.7516248300877363,1,8.0,Served_R_C,Served revenue/cost,higher,0.7516248300877363,ratio,30
+VirneRWMaxMatch,0.6981487346716978,2,8.0,Served_R_C,Served revenue/cost,higher,0.6981487346716978,ratio,30
+VirneGRC,0.6966121063751963,3,8.0,Served_R_C,Served revenue/cost,higher,0.6966121063751963,ratio,30
+CompactNoRepair,0.689560572970819,4,8.0,Served_R_C,Served revenue/cost,higher,0.689560572970819,ratio,30
+GreenCostRouting,0.6823696715827382,5,8.0,Served_R_C,Served revenue/cost,higher,0.6823696715827382,ratio,30
+VirneFFD,45591.6243275773,1,8.0,Energy_Wh,Total energy,lower,45591.6243275773,Wh,30
+VirneRWMaxMatch,48846.331511763325,2,8.0,Energy_Wh,Total energy,lower,48846.331511763325,Wh,30
+VirneGRC,50047.67278694581,3,8.0,Energy_Wh,Total energy,lower,50047.67278694581,Wh,30
+EnergyAware,55131.86229949321,4,8.0,Energy_Wh,Total energy,lower,55131.86229949321,Wh,30
+GreedyCSP,67217.54187801715,5,8.0,Energy_Wh,Total energy,lower,67217.54187801715,Wh,30
+GreenCostRouting,80.00360980718939,1,8.0,EnergyPerAccepted_Wh,Energy/accepted request,lower,80.00360980718939,Wh/request,30
+CompactNoRepair,80.45966445612255,2,8.0,EnergyPerAccepted_Wh,Energy/accepted request,lower,80.45966445612255,Wh/request,30
+ProposedAdaptive,80.70059418927563,3,8.0,EnergyPerAccepted_Wh,Energy/accepted request,lower,80.70059418927563,Wh/request,30
+FullJointRepair,80.77089769693491,4,8.0,EnergyPerAccepted_Wh,Energy/accepted request,lower,80.77089769693491,Wh/request,30
+NoCompactPlacement,81.93205908616821,5,8.0,EnergyPerAccepted_Wh,Energy/accepted request,lower,81.93205908616821,Wh/request,30
+CompactNoRepair,0.16562415031758312,1,8.0,EnergyPerServedRequestSecond_Wh,Energy/served request-second,lower,0.16562415031758312,Wh/request-second,30
+GreenCostRouting,0.16566489451218094,2,8.0,EnergyPerServedRequestSecond_Wh,Energy/served request-second,lower,0.16566489451218094,Wh/request-second,30
+ProposedAdaptive,0.16645831797317714,3,8.0,EnergyPerServedRequestSecond_Wh,Energy/served request-second,lower,0.16645831797317714,Wh/request-second,30
+FullJointRepair,0.16720192340048065,4,8.0,EnergyPerServedRequestSecond_Wh,Energy/served request-second,lower,0.16720192340048065,Wh/request-second,30
+NoCompactPlacement,0.16940263137333306,5,8.0,EnergyPerServedRequestSecond_Wh,Energy/served request-second,lower,0.16940263137333306,Wh/request-second,30
+ProposedAdaptive,0.0012193752026027273,1,8.0,EnergyPerServedCPUUnitSecond_Wh,Energy/served CPU-second,lower,0.0012193752026027273,Wh/CPU-unit-second,30
+CompactNoRepair,0.00123456534283245,2,8.0,EnergyPerServedCPUUnitSecond_Wh,Energy/served CPU-second,lower,0.00123456534283245,Wh/CPU-unit-second,30
+GreenCostRouting,0.0012369478209559926,3,8.0,EnergyPerServedCPUUnitSecond_Wh,Energy/served CPU-second,lower,0.0012369478209559926,Wh/CPU-unit-second,30
+FullJointRepair,0.0012403347778375824,4,8.0,EnergyPerServedCPUUnitSecond_Wh,Energy/served CPU-second,lower,0.0012403347778375824,Wh/CPU-unit-second,30
+NoCompactPlacement,0.001287919686456945,5,8.0,EnergyPerServedCPUUnitSecond_Wh,Energy/served CPU-second,lower,0.001287919686456945,Wh/CPU-unit-second,30
+ProposedAdaptive,0.0005279677287743728,1,8.0,EnergyPerServedBandwidthUnitSecond_Wh,Energy/served BW-second,lower,0.0005279677287743728,Wh/BW-unit-second,30
+FullJointRepair,0.0005462297009784777,2,8.0,EnergyPerServedBandwidthUnitSecond_Wh,Energy/served BW-second,lower,0.0005462297009784777,Wh/BW-unit-second,30
+CompactNoRepair,0.0005469735489943189,3,8.0,EnergyPerServedBandwidthUnitSecond_Wh,Energy/served BW-second,lower,0.0005469735489943189,Wh/BW-unit-second,30
+GreenCostRouting,0.0005490487738612426,4,8.0,EnergyPerServedBandwidthUnitSecond_Wh,Energy/served BW-second,lower,0.0005490487738612426,Wh/BW-unit-second,30
+FixedEnergyWeight,0.0005794557120398682,5,8.0,EnergyPerServedBandwidthUnitSecond_Wh,Energy/served BW-second,lower,0.0005794557120398682,Wh/BW-unit-second,30
+GreedyCSP,0.0010304515102845734,1,8.0,MeanEmbeddingTime,Mean embedding time,lower,1.0304515102845735,ms,30
+VirneFFD,0.0015234992432258817,2,8.0,MeanEmbeddingTime,Mean embedding time,lower,1.5234992432258816,ms,30
+VirneGRC,0.001866072693435557,3,8.0,MeanEmbeddingTime,Mean embedding time,lower,1.866072693435557,ms,30
+VirneRWMaxMatch,0.0021648635291357868,4,8.0,MeanEmbeddingTime,Mean embedding time,lower,2.1648635291357867,ms,30
+VirneRWBFS,0.002606446505059882,5,8.0,MeanEmbeddingTime,Mean embedding time,lower,2.606446505059882,ms,30
+VirneFFD,0.0027348623335456063,1,8.0,P95EmbeddingTime,P95 embedding time,lower,2.7348623335456064,ms,30
+VirneGRC,0.0031937416663640754,2,8.0,P95EmbeddingTime,P95 embedding time,lower,3.193741666364075,ms,30
+VirneRWMaxMatch,0.0035928186668206757,3,8.0,P95EmbeddingTime,P95 embedding time,lower,3.592818666820676,ms,30
+GreedyCSP,0.0037019381666565684,4,8.0,P95EmbeddingTime,P95 embedding time,lower,3.7019381666565683,ms,30
+VirneRWBFS,0.005077226499791624,5,8.0,P95EmbeddingTime,P95 embedding time,lower,5.077226499791624,ms,30
+VirneFFD,0.0036219865666619927,1,8.0,P99EmbeddingTime,P99 embedding time,lower,3.6219865666619926,ms,30
+VirneGRC,0.004207688633119687,2,8.0,P99EmbeddingTime,P99 embedding time,lower,4.207688633119687,ms,30
+VirneRWMaxMatch,0.004600437966679843,3,8.0,P99EmbeddingTime,P99 embedding time,lower,4.600437966679842,ms,30
+GreedyCSP,0.005791680966630032,4,8.0,P99EmbeddingTime,P99 embedding time,lower,5.7916809666300315,ms,30
+VirneRWBFS,0.007114831600072644,5,8.0,P99EmbeddingTime,P99 embedding time,lower,7.114831600072644,ms,30
+GreedyCSP,1.6348317899901303,1,8.0,ExecutionTime,Total embedding time,lower,1.6348317899901303,seconds,30
+VirneFFD,2.4196406700039614,2,8.0,ExecutionTime,Total embedding time,lower,2.4196406700039614,seconds,30
+VirneGRC,2.9627714866545527,3,8.0,ExecutionTime,Total embedding time,lower,2.9627714866545527,seconds,30
+VirneRWMaxMatch,3.4375835533335097,4,8.0,ExecutionTime,Total embedding time,lower,3.4375835533335097,seconds,30
+VirneRWBFS,4.138580326674734,5,8.0,ExecutionTime,Total embedding time,lower,4.138580326674734,seconds,30
+VirnePSO,1.5003686794077056,1,8.0,MeanHops,Mean hops,lower,1.5003686794077056,hops,30
+VirneRWMaxMatch,1.6499349492121502,2,8.0,MeanHops,Mean hops,lower,1.6499349492121502,hops,30
+CompactNoRepair,1.6519427502770994,3,8.0,MeanHops,Mean hops,lower,1.6519427502770994,hops,30
+VirneGRC,1.6588199284338891,4,8.0,MeanHops,Mean hops,lower,1.6588199284338891,hops,30
+GreenCostRouting,1.672481522333227,5,8.0,MeanHops,Mean hops,lower,1.672481522333227,hops,30
+ProposedAdaptive,0.7376153075809739,1,8.0,NodeUtil,CPU utilization (highest usage),higher,73.7615307580974,%,30
+FullJointRepair,0.7122032675343876,2,8.0,NodeUtil,CPU utilization (highest usage),higher,71.22032675343875,%,30
+CompactNoRepair,0.7110084719940934,3,8.0,NodeUtil,CPU utilization (highest usage),higher,71.10084719940934,%,30
+GreenCostRouting,0.7085511913649368,4,8.0,NodeUtil,CPU utilization (highest usage),higher,70.85511913649368,%,30
+AlwaysJointRouting,0.6723275682827674,5,8.0,NodeUtil,CPU utilization (highest usage),higher,67.23275682827673,%,30
+NodeRankSearch,0.5714051243193307,1,8.0,LinkUtil,BW utilization (highest usage),higher,57.14051243193307,%,30
+GRCRankedSearch,0.5656265992985282,2,8.0,LinkUtil,BW utilization (highest usage),higher,56.56265992985282,%,30
+NodeRankScoreOnly,0.5599319035829001,3,8.0,LinkUtil,BW utilization (highest usage),higher,55.993190358290015,%,30
+GRCScoreOnly,0.5516097437025743,4,8.0,LinkUtil,BW utilization (highest usage),higher,55.160974370257435,%,30
+FixedEnergyWeight,0.545529877760183,5,8.0,LinkUtil,BW utilization (highest usage),higher,54.552987776018306,%,30
+ProposedAdaptive,0.5996505774399393,1,10.0,AcceptanceRatio,Acceptance,higher,59.96505774399393,%,30
+GreenCostRouting,0.5945877319095617,2,10.0,AcceptanceRatio,Acceptance,higher,59.45877319095617,%,30
+CompactNoRepair,0.59346405254713,3,10.0,AcceptanceRatio,Acceptance,higher,59.346405254713,%,30
+FullJointRepair,0.5888348904830776,4,10.0,AcceptanceRatio,Acceptance,higher,58.88348904830776,%,30
+NoCompactPlacement,0.5766845645280779,5,10.0,AcceptanceRatio,Acceptance,higher,57.668456452807796,%,30
+VirnePSO,0.7548885084689088,1,10.0,R_C,Admission revenue/cost,higher,0.7548885084689088,ratio,30
+VirneRWMaxMatch,0.7008388454739861,2,10.0,R_C,Admission revenue/cost,higher,0.7008388454739861,ratio,30
+VirneGRC,0.6973119341898367,3,10.0,R_C,Admission revenue/cost,higher,0.6973119341898367,ratio,30
+CompactNoRepair,0.6759048866199338,4,10.0,R_C,Admission revenue/cost,higher,0.6759048866199338,ratio,30
+GreenCostRouting,0.6691155662018836,5,10.0,R_C,Admission revenue/cost,higher,0.6691155662018836,ratio,30
+VirnePSO,0.7550814487499662,1,10.0,Served_R_C,Served revenue/cost,higher,0.7550814487499662,ratio,30
+VirneRWMaxMatch,0.700615869751102,2,10.0,Served_R_C,Served revenue/cost,higher,0.700615869751102,ratio,30
+VirneGRC,0.6970630893344097,3,10.0,Served_R_C,Served revenue/cost,higher,0.6970630893344097,ratio,30
+CompactNoRepair,0.675577275378746,4,10.0,Served_R_C,Served revenue/cost,higher,0.675577275378746,ratio,30
+GreenCostRouting,0.6686482639794036,5,10.0,Served_R_C,Served revenue/cost,higher,0.6686482639794036,ratio,30
+VirneFFD,49935.90920760156,1,10.0,Energy_Wh,Total energy,lower,49935.90920760156,Wh,30
+VirneRWMaxMatch,53767.33327610167,2,10.0,Energy_Wh,Total energy,lower,53767.33327610167,Wh,30
+VirneGRC,54789.86507642749,3,10.0,Energy_Wh,Total energy,lower,54789.86507642749,Wh,30
+EnergyAware,58713.05604325815,4,10.0,Energy_Wh,Total energy,lower,58713.05604325815,Wh,30
+GreedyCSP,69482.13202322472,5,10.0,Energy_Wh,Total energy,lower,69482.13202322472,Wh,30
+GreenCostRouting,76.61522729587347,1,10.0,EnergyPerAccepted_Wh,Energy/accepted request,lower,76.61522729587347,Wh/request,30
+CompactNoRepair,76.78570911499816,2,10.0,EnergyPerAccepted_Wh,Energy/accepted request,lower,76.78570911499816,Wh/request,30
+VirnePSO,76.94163089441116,3,10.0,EnergyPerAccepted_Wh,Energy/accepted request,lower,76.94163089441116,Wh/request,30
+ProposedAdaptive,77.43545812997503,4,10.0,EnergyPerAccepted_Wh,Energy/accepted request,lower,77.43545812997503,Wh/request,30
+NoCompactPlacement,77.51751960435045,5,10.0,EnergyPerAccepted_Wh,Energy/accepted request,lower,77.51751960435045,Wh/request,30
+GreenCostRouting,0.1572726910018479,1,10.0,EnergyPerServedRequestSecond_Wh,Energy/served request-second,lower,0.1572726910018479,Wh/request-second,30
+CompactNoRepair,0.15742654441560738,2,10.0,EnergyPerServedRequestSecond_Wh,Energy/served request-second,lower,0.15742654441560738,Wh/request-second,30
+VirnePSO,0.15829444708056217,3,10.0,EnergyPerServedRequestSecond_Wh,Energy/served request-second,lower,0.15829444708056217,Wh/request-second,30
+ProposedAdaptive,0.1588944487536964,4,10.0,EnergyPerServedRequestSecond_Wh,Energy/served request-second,lower,0.1588944487536964,Wh/request-second,30
+FullJointRepair,0.1594361236415031,5,10.0,EnergyPerServedRequestSecond_Wh,Energy/served request-second,lower,0.1594361236415031,Wh/request-second,30
+ProposedAdaptive,0.0011970622623011732,1,10.0,EnergyPerServedCPUUnitSecond_Wh,Energy/served CPU-second,lower,0.0011970622623011732,Wh/CPU-unit-second,30
+CompactNoRepair,0.0012058475671936214,2,10.0,EnergyPerServedCPUUnitSecond_Wh,Energy/served CPU-second,lower,0.0012058475671936214,Wh/CPU-unit-second,30
+GreenCostRouting,0.0012076804091471658,3,10.0,EnergyPerServedCPUUnitSecond_Wh,Energy/served CPU-second,lower,0.0012076804091471658,Wh/CPU-unit-second,30
+FullJointRepair,0.001213301579036099,4,10.0,EnergyPerServedCPUUnitSecond_Wh,Energy/served CPU-second,lower,0.001213301579036099,Wh/CPU-unit-second,30
+NoCompactPlacement,0.0012473656114114211,5,10.0,EnergyPerServedCPUUnitSecond_Wh,Energy/served CPU-second,lower,0.0012473656114114211,Wh/CPU-unit-second,30
+ProposedAdaptive,0.0005334265982627053,1,10.0,EnergyPerServedBandwidthUnitSecond_Wh,Energy/served BW-second,lower,0.0005334265982627053,Wh/BW-unit-second,30
+FullJointRepair,0.000549115497481602,2,10.0,EnergyPerServedBandwidthUnitSecond_Wh,Energy/served BW-second,lower,0.000549115497481602,Wh/BW-unit-second,30
+CompactNoRepair,0.0005496938051437367,3,10.0,EnergyPerServedBandwidthUnitSecond_Wh,Energy/served BW-second,lower,0.0005496938051437367,Wh/BW-unit-second,30
+GreenCostRouting,0.000551506336258305,4,10.0,EnergyPerServedBandwidthUnitSecond_Wh,Energy/served BW-second,lower,0.000551506336258305,Wh/BW-unit-second,30
+AlwaysJointRouting,0.0005804134800598504,5,10.0,EnergyPerServedBandwidthUnitSecond_Wh,Energy/served BW-second,lower,0.0005804134800598504,Wh/BW-unit-second,30
+GreedyCSP,0.0009096088552723032,1,10.0,MeanEmbeddingTime,Mean embedding time,lower,0.9096088552723032,ms,30
+VirneFFD,0.0016043420130746062,2,10.0,MeanEmbeddingTime,Mean embedding time,lower,1.6043420130746062,ms,30
+VirneGRC,0.0020259968261180294,3,10.0,MeanEmbeddingTime,Mean embedding time,lower,2.0259968261180292,ms,30
+VirneRWMaxMatch,0.002233471207910532,4,10.0,MeanEmbeddingTime,Mean embedding time,lower,2.233471207910532,ms,30
+VirneRWBFS,0.002706481555642274,5,10.0,MeanEmbeddingTime,Mean embedding time,lower,2.706481555642274,ms,30
+VirneFFD,0.0029037865000585343,1,10.0,P95EmbeddingTime,P95 embedding time,lower,2.9037865000585343,ms,30
+GreedyCSP,0.003360577666529327,2,10.0,P95EmbeddingTime,P95 embedding time,lower,3.360577666529327,ms,30
+VirneGRC,0.003496244666202983,3,10.0,P95EmbeddingTime,P95 embedding time,lower,3.496244666202983,ms,30
+VirneRWMaxMatch,0.0036317040003511153,4,10.0,P95EmbeddingTime,P95 embedding time,lower,3.631704000351115,ms,30
+VirneRWBFS,0.005039955666731353,5,10.0,P95EmbeddingTime,P95 embedding time,lower,5.039955666731353,ms,30
+VirneFFD,0.003851519633169422,1,10.0,P99EmbeddingTime,P99 embedding time,lower,3.851519633169422,ms,30
+VirneGRC,0.004528123867158381,2,10.0,P99EmbeddingTime,P99 embedding time,lower,4.5281238671583806,ms,30
+VirneRWMaxMatch,0.00457640493382981,3,10.0,P99EmbeddingTime,P99 embedding time,lower,4.57640493382981,ms,30
+GreedyCSP,0.00537110823372859,4,10.0,P99EmbeddingTime,P99 embedding time,lower,5.37110823372859,ms,30
+VirneRWBFS,0.006923842433230066,5,10.0,P99EmbeddingTime,P99 embedding time,lower,6.923842433230066,ms,30
+GreedyCSP,1.801000576660105,1,10.0,ExecutionTime,Total embedding time,lower,1.801000576660105,seconds,30
+VirneFFD,3.1772574866579815,2,10.0,ExecutionTime,Total embedding time,lower,3.1772574866579815,seconds,30
+VirneGRC,4.012239290038269,3,10.0,ExecutionTime,Total embedding time,lower,4.012239290038269,seconds,30
+VirneRWMaxMatch,4.423787683334619,4,10.0,ExecutionTime,Total embedding time,lower,4.423787683334619,seconds,30
+VirneRWBFS,5.3591664233435345,5,10.0,ExecutionTime,Total embedding time,lower,5.3591664233435345,seconds,30
+VirnePSO,1.4987554286110163,1,10.0,MeanHops,Mean hops,lower,1.4987554286110163,hops,30
+VirneRWMaxMatch,1.6495085239661813,2,10.0,MeanHops,Mean hops,lower,1.6495085239661813,hops,30
+VirneGRC,1.6598569812869841,3,10.0,MeanHops,Mean hops,lower,1.6598569812869841,hops,30
+CompactNoRepair,1.7037066910499894,4,10.0,MeanHops,Mean hops,lower,1.7037066910499894,hops,30
+GreenCostRouting,1.7276487087761143,5,10.0,MeanHops,Mean hops,lower,1.7276487087761143,hops,30
+ProposedAdaptive,0.7708649472370567,1,10.0,NodeUtil,CPU utilization (highest usage),higher,77.08649472370567,%,30
+CompactNoRepair,0.7511361670541827,2,10.0,NodeUtil,CPU utilization (highest usage),higher,75.11361670541828,%,30
+FullJointRepair,0.7506394362115583,3,10.0,NodeUtil,CPU utilization (highest usage),higher,75.06394362115583,%,30
+GreenCostRouting,0.7496045106235062,4,10.0,NodeUtil,CPU utilization (highest usage),higher,74.96045106235061,%,30
+AlwaysJointRouting,0.7148091335892681,5,10.0,NodeUtil,CPU utilization (highest usage),higher,71.48091335892681,%,30
+NodeRankSearch,0.5894210103322691,1,10.0,LinkUtil,BW utilization (highest usage),higher,58.94210103322691,%,30
+GRCRankedSearch,0.5880623414734162,2,10.0,LinkUtil,BW utilization (highest usage),higher,58.80623414734162,%,30
+NodeRankScoreOnly,0.5811807035742619,3,10.0,LinkUtil,BW utilization (highest usage),higher,58.11807035742619,%,30
+GRCScoreOnly,0.5740546161926251,4,10.0,LinkUtil,BW utilization (highest usage),higher,57.40546161926251,%,30
+FixedEnergyWeight,0.5660670708047189,5,10.0,LinkUtil,BW utilization (highest usage),higher,56.606707080471885,%,30
+GreenCostRouting,0.524063390830356,1,12.0,AcceptanceRatio,Acceptance,higher,52.406339083035604,%,30
+ProposedAdaptive,0.5240243364552891,2,12.0,AcceptanceRatio,Acceptance,higher,52.40243364552891,%,30
+CompactNoRepair,0.5240078723383771,3,12.0,AcceptanceRatio,Acceptance,higher,52.40078723383771,%,30
+FullJointRepair,0.5193406264609167,4,12.0,AcceptanceRatio,Acceptance,higher,51.934062646091675,%,30
+NoCompactPlacement,0.5106249640196723,5,12.0,AcceptanceRatio,Acceptance,higher,51.06249640196723,%,30
+VirnePSO,0.7588323229462228,1,12.0,R_C,Admission revenue/cost,higher,0.7588323229462228,ratio,30
+VirneRWMaxMatch,0.700705114588798,2,12.0,R_C,Admission revenue/cost,higher,0.700705114588798,ratio,30
+VirneGRC,0.6965145513318223,3,12.0,R_C,Admission revenue/cost,higher,0.6965145513318223,ratio,30
+VirneFFD,0.6674588798471884,4,12.0,R_C,Admission revenue/cost,higher,0.6674588798471884,ratio,30
+CompactNoRepair,0.6655531540715366,5,12.0,R_C,Admission revenue/cost,higher,0.6655531540715366,ratio,30
+VirnePSO,0.7586167679557252,1,12.0,Served_R_C,Served revenue/cost,higher,0.7586167679557252,ratio,30
+VirneRWMaxMatch,0.7008588940106908,2,12.0,Served_R_C,Served revenue/cost,higher,0.7008588940106908,ratio,30
+VirneGRC,0.6966681395316094,3,12.0,Served_R_C,Served revenue/cost,higher,0.6966681395316094,ratio,30
+VirneFFD,0.6671829696016339,4,12.0,Served_R_C,Served revenue/cost,higher,0.6671829696016339,ratio,30
+CompactNoRepair,0.665869227523651,5,12.0,Served_R_C,Served revenue/cost,higher,0.665869227523651,ratio,30
+VirneFFD,53795.21243315393,1,12.0,Energy_Wh,Total energy,lower,53795.21243315393,Wh,30
+VirneRWMaxMatch,57032.33476042768,2,12.0,Energy_Wh,Total energy,lower,57032.33476042768,Wh,30
+VirneGRC,58613.79125236525,3,12.0,Energy_Wh,Total energy,lower,58613.79125236525,Wh,30
+EnergyAware,60972.625986474086,4,12.0,Energy_Wh,Total energy,lower,60972.625986474086,Wh,30
+GreedyCSP,71488.89484907055,5,12.0,Energy_Wh,Total energy,lower,71488.89484907055,Wh,30
+VirnePSO,72.72448356320778,1,12.0,EnergyPerAccepted_Wh,Energy/accepted request,lower,72.72448356320778,Wh/request,30
+CompactNoRepair,73.86959950496221,2,12.0,EnergyPerAccepted_Wh,Energy/accepted request,lower,73.86959950496221,Wh/request,30
+GreenCostRouting,73.88875322263772,3,12.0,EnergyPerAccepted_Wh,Energy/accepted request,lower,73.88875322263772,Wh/request,30
+NoCompactPlacement,74.55460079068209,4,12.0,EnergyPerAccepted_Wh,Energy/accepted request,lower,74.55460079068209,Wh/request,30
+NoJointRepair,74.73778384489755,5,12.0,EnergyPerAccepted_Wh,Energy/accepted request,lower,74.73778384489755,Wh/request,30
+VirnePSO,0.14909451787084918,1,12.0,EnergyPerServedRequestSecond_Wh,Energy/served request-second,lower,0.14909451787084918,Wh/request-second,30
+GreenCostRouting,0.15196608852111507,2,12.0,EnergyPerServedRequestSecond_Wh,Energy/served request-second,lower,0.15196608852111507,Wh/request-second,30
+CompactNoRepair,0.15208812368417077,3,12.0,EnergyPerServedRequestSecond_Wh,Energy/served request-second,lower,0.15208812368417077,Wh/request-second,30
+FullJointRepair,0.15368539972495224,4,12.0,EnergyPerServedRequestSecond_Wh,Energy/served request-second,lower,0.15368539972495224,Wh/request-second,30
+NoCompactPlacement,0.1536885372013704,5,12.0,EnergyPerServedRequestSecond_Wh,Energy/served request-second,lower,0.1536885372013704,Wh/request-second,30
+ProposedAdaptive,0.001184814958511441,1,12.0,EnergyPerServedCPUUnitSecond_Wh,Energy/served CPU-second,lower,0.001184814958511441,Wh/CPU-unit-second,30
+CompactNoRepair,0.0011888233719858285,2,12.0,EnergyPerServedCPUUnitSecond_Wh,Energy/served CPU-second,lower,0.0011888233719858285,Wh/CPU-unit-second,30
+GreenCostRouting,0.001190049236331017,3,12.0,EnergyPerServedCPUUnitSecond_Wh,Energy/served CPU-second,lower,0.001190049236331017,Wh/CPU-unit-second,30
+FullJointRepair,0.0011968276775999687,4,12.0,EnergyPerServedCPUUnitSecond_Wh,Energy/served CPU-second,lower,0.0011968276775999687,Wh/CPU-unit-second,30
+NoJointRepair,0.0012236855743068813,5,12.0,EnergyPerServedCPUUnitSecond_Wh,Energy/served CPU-second,lower,0.0012236855743068813,Wh/CPU-unit-second,30
+ProposedAdaptive,0.0005383288885440491,1,12.0,EnergyPerServedBandwidthUnitSecond_Wh,Energy/served BW-second,lower,0.0005383288885440491,Wh/BW-unit-second,30
+FullJointRepair,0.0005535541077095373,2,12.0,EnergyPerServedBandwidthUnitSecond_Wh,Energy/served BW-second,lower,0.0005535541077095373,Wh/BW-unit-second,30
+CompactNoRepair,0.0005538294256055966,3,12.0,EnergyPerServedBandwidthUnitSecond_Wh,Energy/served BW-second,lower,0.0005538294256055966,Wh/BW-unit-second,30
+GreenCostRouting,0.000554991516174947,4,12.0,EnergyPerServedBandwidthUnitSecond_Wh,Energy/served BW-second,lower,0.000554991516174947,Wh/BW-unit-second,30
+EagerPacking,0.00058034971366746,5,12.0,EnergyPerServedBandwidthUnitSecond_Wh,Energy/served BW-second,lower,0.00058034971366746,Wh/BW-unit-second,30
+EagerPathGeneration,0.00058034971366746,5,12.0,EnergyPerServedBandwidthUnitSecond_Wh,Energy/served BW-second,lower,0.00058034971366746,Wh/BW-unit-second,30
+LegacyAdaptive,0.00058034971366746,5,12.0,EnergyPerServedBandwidthUnitSecond_Wh,Energy/served BW-second,lower,0.00058034971366746,Wh/BW-unit-second,30
+QoSBoundRouting,0.00058034971366746,5,12.0,EnergyPerServedBandwidthUnitSecond_Wh,Energy/served BW-second,lower,0.00058034971366746,Wh/BW-unit-second,30
+GreedyCSP,0.0008380943908414275,1,12.0,MeanEmbeddingTime,Mean embedding time,lower,0.8380943908414276,ms,30
+VirneFFD,0.0015251935029997297,2,12.0,MeanEmbeddingTime,Mean embedding time,lower,1.5251935029997297,ms,30
+VirneGRC,0.0018310812148481018,3,12.0,MeanEmbeddingTime,Mean embedding time,lower,1.8310812148481017,ms,30
+VirneRWMaxMatch,0.0022095950771570854,4,12.0,MeanEmbeddingTime,Mean embedding time,lower,2.2095950771570854,ms,30
+VirneRWBFS,0.0025109133246560902,5,12.0,MeanEmbeddingTime,Mean embedding time,lower,2.5109133246560904,ms,30
+VirneFFD,0.0028023476660988906,1,12.0,P95EmbeddingTime,P95 embedding time,lower,2.8023476660988904,ms,30
+VirneGRC,0.0031677743334997403,2,12.0,P95EmbeddingTime,P95 embedding time,lower,3.1677743334997404,ms,30
+GreedyCSP,0.0031881198332121123,3,12.0,P95EmbeddingTime,P95 embedding time,lower,3.188119833212112,ms,30
+VirneRWMaxMatch,0.0036646465002074056,4,12.0,P95EmbeddingTime,P95 embedding time,lower,3.6646465002074056,ms,30
+VirneRWBFS,0.004605077833087609,5,12.0,P95EmbeddingTime,P95 embedding time,lower,4.605077833087609,ms,30
+VirneFFD,0.0037700606332631043,1,12.0,P99EmbeddingTime,P99 embedding time,lower,3.770060633263104,ms,30
+VirneGRC,0.004184775933945881,2,12.0,P99EmbeddingTime,P99 embedding time,lower,4.184775933945881,ms,30
+VirneRWMaxMatch,0.004658142666315446,3,12.0,P99EmbeddingTime,P99 embedding time,lower,4.658142666315446,ms,30
+GreedyCSP,0.0052530120667482446,4,12.0,P99EmbeddingTime,P99 embedding time,lower,5.253012066748244,ms,30
+VirneRWBFS,0.006413114199548241,5,12.0,P99EmbeddingTime,P99 embedding time,lower,6.413114199548241,ms,30
+GreedyCSP,1.9918743166948842,1,12.0,ExecutionTime,Total embedding time,lower,1.9918743166948842,seconds,30
+VirneFFD,3.625801033326813,2,12.0,ExecutionTime,Total embedding time,lower,3.625801033326813,seconds,30
+VirneGRC,4.353049263343564,3,12.0,ExecutionTime,Total embedding time,lower,4.353049263343564,seconds,30
+VirneRWMaxMatch,5.254974779982634,4,12.0,ExecutionTime,Total embedding time,lower,5.254974779982634,seconds,30
+VirneRWBFS,5.968865476656356,5,12.0,ExecutionTime,Total embedding time,lower,5.968865476656356,seconds,30
+VirnePSO,1.4927066010277217,1,12.0,MeanHops,Mean hops,lower,1.4927066010277217,hops,30
+VirneRWMaxMatch,1.653692718047649,2,12.0,MeanHops,Mean hops,lower,1.653692718047649,hops,30
+VirneGRC,1.667328368921679,3,12.0,MeanHops,Mean hops,lower,1.667328368921679,hops,30
+CompactNoRepair,1.7445627514993503,4,12.0,MeanHops,Mean hops,lower,1.7445627514993503,hops,30
+GreenCostRouting,1.7645043572392458,5,12.0,MeanHops,Mean hops,lower,1.7645043572392458,hops,30
+ProposedAdaptive,0.7908483771795215,1,12.0,NodeUtil,CPU utilization (highest usage),higher,79.08483771795215,%,30
+CompactNoRepair,0.7766972742989271,2,12.0,NodeUtil,CPU utilization (highest usage),higher,77.6697274298927,%,30
+GreenCostRouting,0.7761615557025294,3,12.0,NodeUtil,CPU utilization (highest usage),higher,77.61615557025294,%,30
+FullJointRepair,0.7749437492507627,4,12.0,NodeUtil,CPU utilization (highest usage),higher,77.49437492507627,%,30
+FixedEnergyWeight,0.7428194326182705,5,12.0,NodeUtil,CPU utilization (highest usage),higher,74.28194326182705,%,30
+NodeRankSearch,0.6042711257256183,1,12.0,LinkUtil,BW utilization (highest usage),higher,60.427112572561825,%,30
+GRCRankedSearch,0.6007929334115762,2,12.0,LinkUtil,BW utilization (highest usage),higher,60.07929334115762,%,30
+NodeRankScoreOnly,0.5966444457791215,3,12.0,LinkUtil,BW utilization (highest usage),higher,59.66444457791214,%,30
+GRCScoreOnly,0.5889090467173316,4,12.0,LinkUtil,BW utilization (highest usage),higher,58.89090467173316,%,30
+FixedEnergyWeight,0.5794673409282621,5,12.0,LinkUtil,BW utilization (highest usage),higher,57.94673409282621,%,30

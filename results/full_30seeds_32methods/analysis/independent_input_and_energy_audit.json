@@ -1,0 +1,15 @@
+{
+  "reconstructed_case_inputs": 180,
+  "offered_requests": 249322,
+  "distinct_topologies": 30,
+  "distinct_traces": 180,
+  "rows": 5760,
+  "source_sha256": "3f2a9fd7f38a64c4172b76dbf81f9854758d01de68867014bf8768ddfe9b30f2",
+  "raw_sha256": "1a291c14091d655a6a28cb90db8da0453f1364c6976e5cd1d3c5a0c69da5e754",
+  "max_served_cpu_identity_absolute_error": 6.556510925292969e-07,
+  "max_routed_bandwidth_identity_absolute_error": 2.6151537895202637e-06,
+  "max_served_revenue_identity_absolute_error": 1.4603137969970703e-06,
+  "minimum_cpu_energy_bound_margin_Wh": 68.04581621783109,
+  "raw_rows_modified": false,
+  "embedding_simulation_rerun": false
+}

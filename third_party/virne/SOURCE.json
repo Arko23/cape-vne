@@ -1,0 +1,24 @@
+{
+  "upstream": "https://github.com/GeminiLight/virne",
+  "revision": "Unverified local snapshot; no Git metadata",
+  "archive_sha256": "46686e3ff015da3a6ed4e440aece936e29a8e96516d0d99202bbccfddc12e86f",
+  "files": {
+    "LICENSE": "15f4ee8d5302a8995e88654411e5533ce49b2827c20778b0b72b2abd1bffc293",
+    "README.md": "734ee62cbb51bc4b3420f031dac712677887ef090965edbc9644e54f59cd3612",
+    "pyproject.toml": "548c9c1ff183f39dbd8de9527c2b57d6c024eaec6f25bbc04ed78cdaea98d437",
+    "virne/solver/rank/node_rank.py": "428f0deb188e685a9f3eb6177a70df533519f62c560284063fc4cf6ec7624fff",
+    "virne/solver/heuristic/node_rank.py": "44a6f63f1a1798935453c057c6981a692f5dc4f03bde6a6535607aecbdc61389",
+    "virne/solver/heuristic/bfs_trials.py": "d11f0a9ee83c4e325ec017aa5f8edf3e92396e45ec7f773d816de96e2e9d5508",
+    "virne/solver/meta_heuristic/base_meta_heuristic_solver.py": "beb67aa9f066f64d3021727ccac98602ae175b90029e50cc09d2e9c402f08f89",
+    "virne/solver/meta_heuristic/particle_swarm_optimization_solver.py": "d89702a5b9734fa60adb63b15784acb3e7235c32aa1a7a91fcb7e095c0c0c34b",
+    "virne/core/controller/controller.py": "352552b0312d18b42eb6904629ed43c76df2d9c844df59fe51ab8653ffac02a5",
+    "virne/core/controller/node_mapper.py": "8ad2ae077e61732dcb77ffa08269aab630bdb6df29969c983d09a3565ba860f9",
+    "virne/core/controller/link_mapper.py": "e7e5fb542d6fca6a5c9a8bebace2c82e9bfedef1628cd8adbb065c4f95d40237",
+    "virne/core/controller/topology_analyzer.py": "665519c5c4bf50c2318e2d22d30679881dda0edcbc0b618c4fb2055ac5a01b28",
+    "virne/core/counter.py": "574745f86e99cd656cb0165330e3196b4f5ebf4eaa0687b076b8d9602db4d637",
+    "virne/core/solution.py": "ec5d64ef6695350f718a818461fbf60934b5077d8add39bb7ee8be18cfe1e78b",
+    "virne/network/base_network.py": "94cb1185b5e6f0046d9393f97af1ee0dd1c0d688596b102a0ec3cc98314addce",
+    "virne/network/attribute/link_attribute.py": "a95cfd2b8e2b46d4de23f70934ca942de502e674e2a7eaa139482df640e8646f"
+  },
+  "purpose": "Pinned upstream decision-code oracle; not a full Virne checkout"
+}

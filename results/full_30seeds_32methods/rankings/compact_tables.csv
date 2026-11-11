@@ -1,0 +1,91 @@
+Lambda,Metric,Label,TopFive,OurRank,OurValue,Unit,Tied
+2.0,AcceptanceRatio,Acceptance,P > FJR > AJ > CNR > GCR,1,99.75407436624945,%,False
+2.0,R_C,Admission revenue/cost,P > CNR > FJR > VP > GCR,1,0.7831504588845256,ratio,False
+2.0,Served_R_C,Served revenue/cost,P > CNR > FJR > VP > GCR,1,0.7805592907015562,ratio,False
+2.0,Energy_Wh,Total energy,VF > VR > VG > EA > VP,7,46345.93959938777,Wh,False
+2.0,EnergyPerAccepted_Wh,Energy/accepted request,GCR > P > CNR > FJR > AJ,2,119.43274378641726,Wh/request,False
+2.0,EnergyPerServedRequestSecond_Wh,Energy/served request-second,GCR > P > CNR > FJR > AJ,2,0.24535891985458583,Wh/request-second,False
+2.0,EnergyPerServedCPUUnitSecond_Wh,Energy/served CPU-second,GCR > P > CNR > FJR > AJ,2,0.0016680540469997793,Wh/CPU-unit-second,False
+2.0,EnergyPerServedBandwidthUnitSecond_Wh,Energy/served BW-second,P > GCR > FJR > CNR > AJ,1,0.000664816824088844,Wh/BW-unit-second,False
+2.0,MeanEmbeddingTime,Mean embedding time,VF > VG > GC > VR > VB,6,4.023453396530942,ms,False
+2.0,P95EmbeddingTime,P95 embedding time,VF > VG > VR > GC > VB,6,8.734786500031074,ms,False
+2.0,P99EmbeddingTime,P99 embedding time,VF > VG > VR > GC > VB,6,14.150844866686377,ms,False
+2.0,ExecutionTime,Total embedding time,VF > VG > GC > VR > VB,6,1.5664158933329722,seconds,False
+2.0,MeanHops,Mean hops,P > CNR > FJR > VP > GCR,1,1.3791368904270231,hops,False
+2.0,NodeUtil,CPU utilization (highest usage),P > FJR > GCR > CNR > FH,1,27.92850845614017,%,False
+2.0,LinkUtil,BW utilization (highest usage),NS > GS > NSO > GSO > FEW,26,17.794164577845624,%,False
+4.0,AcceptanceRatio,Acceptance,P > FJR > CNR > GCR > AJ,1,95.95572547442825,%,False
+4.0,R_C,Admission revenue/cost,CNR > VP > P > GCR > FJR,3,0.7458280086325956,ratio,False
+4.0,Served_R_C,Served revenue/cost,CNR > P > VP > GCR > FJR,2,0.7484362626781228,ratio,False
+4.0,Energy_Wh,Total energy,VF > VR > VG > EA > GC,32,73575.11085989296,Wh,False
+4.0,EnergyPerAccepted_Wh,Energy/accepted request,P > GCR > CNR > FJR > AJ,1,97.70231417765378,Wh/request,False
+4.0,EnergyPerServedRequestSecond_Wh,Energy/served request-second,P > GCR > CNR > FJR > AJ,1,0.20161849519743155,Wh/request-second,False
+4.0,EnergyPerServedCPUUnitSecond_Wh,Energy/served CPU-second,P > GCR > CNR > FJR > AJ,1,0.001386416830125514,Wh/CPU-unit-second,False
+4.0,EnergyPerServedBandwidthUnitSecond_Wh,Energy/served BW-second,P > FJR > GCR > CNR > AJ,1,0.0005598820041150967,Wh/BW-unit-second,False
+4.0,MeanEmbeddingTime,Mean embedding time,GC > VF > VG > VR > VB,6,5.311078880524065,ms,False
+4.0,P95EmbeddingTime,P95 embedding time,VF > VG > VR > GC > VB,6,14.012632666616193,ms,False
+4.0,P99EmbeddingTime,P99 embedding time,VF > VG > VR > GC > VB,10,39.549744500003385,ms,False
+4.0,ExecutionTime,Total embedding time,GC > VF > VG > VR > VB,6,4.1738517233256065,seconds,False
+4.0,MeanHops,Mean hops,CNR > P > VP > GCR > FJR,2,1.4816906590424153,hops,False
+4.0,NodeUtil,CPU utilization (highest usage),P > FJR > CNR > GCR > AJ,1,53.30403442983772,%,False
+4.0,LinkUtil,BW utilization (highest usage),NS > GS > NSO > GSO > FEW,18,35.3804253230759,%,False
+6.0,AcceptanceRatio,Acceptance,P > FJR > CNR > GCR > FH,1,82.4319722770826,%,False
+6.0,R_C,Admission revenue/cost,VP > CNR > GCR > P > VR,4,0.6995099111564843,ratio,False
+6.0,Served_R_C,Served revenue/cost,VP > CNR > GCR > P > VR,4,0.7001206774514891,ratio,False
+6.0,Energy_Wh,Total energy,VF > VR > VG > EA > GC,32,85101.74285131576,Wh,False
+6.0,EnergyPerAccepted_Wh,Energy/accepted request,GCR > CNR > P > FJR > NCL,3,86.75547564639375,Wh/request,False
+6.0,EnergyPerServedRequestSecond_Wh,Energy/served request-second,P > CNR > GCR > FJR > NJ,1,0.1782242624130723,Wh/request-second,False
+6.0,EnergyPerServedCPUUnitSecond_Wh,Energy/served CPU-second,P > CNR > GCR > FJR > FH,1,0.0012648850859658387,Wh/CPU-unit-second,False
+6.0,EnergyPerServedBandwidthUnitSecond_Wh,Energy/served BW-second,P > FJR > CNR > GCR > CR,1,0.0005293867924779544,Wh/BW-unit-second,False
+6.0,MeanEmbeddingTime,Mean embedding time,GC > VF > VG > VR > VB,7,6.621165391039633,ms,False
+6.0,P95EmbeddingTime,P95 embedding time,VF > VG > VR > GC > VB,10,23.889056833252948,ms,False
+6.0,P99EmbeddingTime,P99 embedding time,VF > VG > VR > GC > VB,11,47.4888100336702,ms,False
+6.0,ExecutionTime,Total embedding time,GC > VF > VG > VR > VB,7,7.8937620199986975,seconds,False
+6.0,MeanHops,Mean hops,VP > CNR > GCR > P > VR,4,1.6250327372157707,hops,False
+6.0,NodeUtil,CPU utilization (highest usage),P > FJR > CNR > GCR > FH,1,67.56500627054133,%,False
+6.0,LinkUtil,BW utilization (highest usage),NS > GS > NSO > GSO > AJ,16,47.216669381120724,%,False
+8.0,AcceptanceRatio,Acceptance,P > GCR > FJR > CNR > AJ,1,69.99091667134591,%,False
+8.0,R_C,Admission revenue/cost,VP > VR > VG > CNR > GCR,6,0.6779511858220537,ratio,False
+8.0,Served_R_C,Served revenue/cost,VP > VR > VG > CNR > GCR,6,0.6791940749174452,ratio,False
+8.0,Energy_Wh,Total energy,VF > VR > VG > EA > GC,32,89568.70684989533,Wh,False
+8.0,EnergyPerAccepted_Wh,Energy/accepted request,GCR > CNR > P > FJR > NCL,3,80.70059418927563,Wh/request,False
+8.0,EnergyPerServedRequestSecond_Wh,Energy/served request-second,CNR > GCR > P > FJR > NCL,3,0.16645831797317714,Wh/request-second,False
+8.0,EnergyPerServedCPUUnitSecond_Wh,Energy/served CPU-second,P > CNR > GCR > FJR > NCL,1,0.0012193752026027273,Wh/CPU-unit-second,False
+8.0,EnergyPerServedBandwidthUnitSecond_Wh,Energy/served BW-second,P > FJR > CNR > GCR > FEW,1,0.0005279677287743728,Wh/BW-unit-second,False
+8.0,MeanEmbeddingTime,Mean embedding time,GC > VF > VG > VR > VB,9,6.626208619439541,ms,False
+8.0,P95EmbeddingTime,P95 embedding time,VF > VG > VR > GC > VB,10,24.579179833569146,ms,False
+8.0,P99EmbeddingTime,P99 embedding time,VF > VG > VR > GC > VB,11,48.38623996658376,ms,False
+8.0,ExecutionTime,Total embedding time,GC > VF > VG > VR > VB,9,10.522966830010045,seconds,False
+8.0,MeanHops,Mean hops,VP > VR > CNR > VG > GCR,6,1.7019589582843615,hops,False
+8.0,NodeUtil,CPU utilization (highest usage),P > FJR > CNR > GCR > AJ,1,73.7615307580974,%,False
+8.0,LinkUtil,BW utilization (highest usage),NS > GS > NSO > GSO > FEW,15,51.95460053440244,%,False
+10.0,AcceptanceRatio,Acceptance,P > GCR > CNR > FJR > NCL,1,59.96505774399393,%,False
+10.0,R_C,Admission revenue/cost,VP > VR > VG > CNR > GCR,7,0.6647906169417503,ratio,False
+10.0,Served_R_C,Served revenue/cost,VP > VR > VG > CNR > GCR,7,0.6657503358151177,ratio,False
+10.0,Energy_Wh,Total energy,VF > VR > VG > EA > GC,32,91894.2319542969,Wh,False
+10.0,EnergyPerAccepted_Wh,Energy/accepted request,GCR > CNR > VP > P > NCL,4,77.43545812997503,Wh/request,False
+10.0,EnergyPerServedRequestSecond_Wh,Energy/served request-second,GCR > CNR > VP > P > FJR,4,0.1588944487536964,Wh/request-second,False
+10.0,EnergyPerServedCPUUnitSecond_Wh,Energy/served CPU-second,P > CNR > GCR > FJR > NCL,1,0.0011970622623011732,Wh/CPU-unit-second,False
+10.0,EnergyPerServedBandwidthUnitSecond_Wh,Energy/served BW-second,P > FJR > CNR > GCR > AJ,1,0.0005334265982627053,Wh/BW-unit-second,False
+10.0,MeanEmbeddingTime,Mean embedding time,GC > VF > VG > VR > VB,9,6.377527390246086,ms,False
+10.0,P95EmbeddingTime,P95 embedding time,VF > GC > VG > VR > VB,10,24.14776266674985,ms,False
+10.0,P99EmbeddingTime,P99 embedding time,VF > VG > VR > GC > VB,11,46.70069666671649,ms,False
+10.0,ExecutionTime,Total embedding time,GC > VF > VG > VR > VB,9,12.632122899992343,seconds,False
+10.0,MeanHops,Mean hops,VP > VR > VG > CNR > GCR,6,1.752679670957752,hops,False
+10.0,NodeUtil,CPU utilization (highest usage),P > CNR > FJR > GCR > AJ,1,77.08649472370567,%,False
+10.0,LinkUtil,BW utilization (highest usage),NS > GS > NSO > GSO > FEW,15,54.29110121398415,%,False
+12.0,AcceptanceRatio,Acceptance,GCR > P > CNR > FJR > NCL,2,52.40243364552891,%,False
+12.0,R_C,Admission revenue/cost,VP > VR > VG > VF > CNR,7,0.6569083368239197,ratio,False
+12.0,Served_R_C,Served revenue/cost,VP > VR > VG > VF > CNR,7,0.6558400291177002,ratio,False
+12.0,Energy_Wh,Total energy,VF > VR > VG > EA > GC,32,93311.16237529524,Wh,False
+12.0,EnergyPerAccepted_Wh,Energy/accepted request,VP > CNR > GCR > NCL > NJ,7,74.9897257508722,Wh/request,False
+12.0,EnergyPerServedRequestSecond_Wh,Energy/served request-second,VP > GCR > CNR > FJR > NCL,6,0.15400319368039778,Wh/request-second,False
+12.0,EnergyPerServedCPUUnitSecond_Wh,Energy/served CPU-second,P > CNR > GCR > FJR > NJ,1,0.001184814958511441,Wh/CPU-unit-second,False
+12.0,EnergyPerServedBandwidthUnitSecond_Wh,Energy/served BW-second,P > FJR > CNR > GCR > EP=EPG=LA=QB,1,0.0005383288885440491,Wh/BW-unit-second,False
+12.0,MeanEmbeddingTime,Mean embedding time,GC > VF > VG > VR > VB,9,5.718388403157795,ms,False
+12.0,P95EmbeddingTime,P95 embedding time,VF > VG > GC > VR > VB,10,21.90516183287399,ms,False
+12.0,P99EmbeddingTime,P99 embedding time,VF > VG > VR > GC > VB,11,44.41895043328257,ms,False
+12.0,ExecutionTime,Total embedding time,GC > VF > VG > VR > VB,9,13.594797389974701,seconds,False
+12.0,MeanHops,Mean hops,VP > VR > VG > CNR > GCR,7,1.785265966891872,hops,False
+12.0,NodeUtil,CPU utilization (highest usage),P > CNR > GCR > FJR > FEW,1,79.08483771795215,%,False
+12.0,LinkUtil,BW utilization (highest usage),NS > GS > NSO > GSO > FEW,15,55.804231152048445,%,False

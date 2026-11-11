@@ -1,0 +1,190 @@
+{
+  "schema": 1,
+  "purpose": "Frozen deterministic regression outcomes; not performance evidence",
+  "source_archive_sha256": "7c418b308207c591bd142bf5e23d3fd3843b2d2a7bcda0788ef70fe134d9ebf7",
+  "algorithms": [
+    "GRC",
+    "NodeRank",
+    "GreedyKSP",
+    "EnergyAware",
+    "PSO"
+  ],
+  "fields": [
+    "Accepted",
+    "Rejected",
+    "Revenue",
+    "Cost",
+    "Energy_Wh",
+    "ServedRequestSeconds",
+    "ServedRevenue",
+    "ServedCost",
+    "BootEnergy_J"
+  ],
+  "cases": [
+    {
+      "case": {
+        "id": "baseline_4231",
+        "load": 8.0,
+        "seed": 4231,
+        "duration": 250.0,
+        "nodes": 20,
+        "scenario": {
+          "link_prob": 0.35,
+          "vnr_link_prob": 0.4,
+          "lifetime_mean": 500.0,
+          "max_delay": 25.0,
+          "max_hops": 8,
+          "p_idle": 150.0,
+          "p_peak": 350.0,
+          "p_link": 5.0,
+          "boot_energy_joules": 50.0
+        }
+      },
+      "outcomes": [
+        {
+          "Algorithm": "EnergyAware",
+          "Accepted": 2,
+          "Rejected": 20,
+          "Revenue": 579.0,
+          "Cost": 1020.0,
+          "Energy_Wh": 66.6796803883518,
+          "ServedRequestSeconds": 129.18151646794894,
+          "ServedRevenue": 49554.97836141754,
+          "ServedCost": 86335.43306743923,
+          "BootEnergy_J": 850.0
+        },
+        {
+          "Algorithm": "GRC",
+          "Accepted": 3,
+          "Rejected": 19,
+          "Revenue": 1453.0,
+          "Cost": 2687.0,
+          "Energy_Wh": 236.704534485295,
+          "ServedRequestSeconds": 536.1860171285234,
+          "ServedRevenue": 286331.02451948915,
+          "ServedCost": 515713.4790165794,
+          "BootEnergy_J": 950.0
+        },
+        {
+          "Algorithm": "GreedyKSP",
+          "Accepted": 3,
+          "Rejected": 19,
+          "Revenue": 880.0,
+          "Cost": 1579.0,
+          "Energy_Wh": 131.2882121755762,
+          "ServedRequestSeconds": 329.3709092233917,
+          "ServedRevenue": 109811.9855808058,
+          "ServedCost": 198241.30361773176,
+          "BootEnergy_J": 1000.0
+        },
+        {
+          "Algorithm": "NodeRank",
+          "Accepted": 2,
+          "Rejected": 20,
+          "Revenue": 1047.0,
+          "Cost": 2085.0,
+          "Energy_Wh": 227.3048938519793,
+          "ServedRequestSeconds": 419.4195964741783,
+          "ServedRevenue": 238923.85773382513,
+          "ServedCost": 495618.72838318057,
+          "BootEnergy_J": 900.0
+        },
+        {
+          "Algorithm": "PSO",
+          "Accepted": 5,
+          "Rejected": 17,
+          "Revenue": 1998.0,
+          "Cost": 2696.0,
+          "Energy_Wh": 245.77315895851717,
+          "ServedRequestSeconds": 686.9072598684934,
+          "ServedRevenue": 327507.95092061977,
+          "ServedCost": 475607.405528763,
+          "BootEnergy_J": 1050.0
+        }
+      ]
+    },
+    {
+      "case": {
+        "id": "baseline_4237",
+        "load": 8.0,
+        "seed": 4237,
+        "duration": 250.0,
+        "nodes": 20,
+        "scenario": {
+          "link_prob": 0.35,
+          "vnr_link_prob": 0.4,
+          "lifetime_mean": 500.0,
+          "max_delay": 25.0,
+          "max_hops": 8,
+          "p_idle": 150.0,
+          "p_peak": 350.0,
+          "p_link": 5.0,
+          "boot_energy_joules": 50.0
+        }
+      },
+      "outcomes": [
+        {
+          "Algorithm": "EnergyAware",
+          "Accepted": 3,
+          "Rejected": 16,
+          "Revenue": 1012.0,
+          "Cost": 2021.0,
+          "Energy_Wh": 95.68319481941481,
+          "ServedRequestSeconds": 274.0900704914965,
+          "ServedRevenue": 77527.39561688197,
+          "ServedCost": 164715.96176965276,
+          "BootEnergy_J": 900.0
+        },
+        {
+          "Algorithm": "GRC",
+          "Accepted": 5,
+          "Rejected": 14,
+          "Revenue": 1683.0,
+          "Cost": 2669.0,
+          "Energy_Wh": 215.31756943309645,
+          "ServedRequestSeconds": 832.7494304807166,
+          "ServedRevenue": 279241.607034944,
+          "ServedCost": 447565.75008694275,
+          "BootEnergy_J": 900.0
+        },
+        {
+          "Algorithm": "GreedyKSP",
+          "Accepted": 4,
+          "Rejected": 15,
+          "Revenue": 1227.0,
+          "Cost": 2084.0,
+          "Energy_Wh": 96.66154535393025,
+          "ServedRequestSeconds": 283.8181403546972,
+          "ServedRevenue": 79618.93063747013,
+          "ServedCost": 142900.04826646525,
+          "BootEnergy_J": 950.0
+        },
+        {
+          "Algorithm": "NodeRank",
+          "Accepted": 6,
+          "Rejected": 13,
+          "Revenue": 1992.0,
+          "Cost": 3301.0,
+          "Energy_Wh": 196.1327267027704,
+          "ServedRequestSeconds": 714.8685552997,
+          "ServedRevenue": 225025.19195205203,
+          "ServedCost": 365567.8129876652,
+          "BootEnergy_J": 1100.0
+        },
+        {
+          "Algorithm": "PSO",
+          "Accepted": 5,
+          "Rejected": 14,
+          "Revenue": 2048.0,
+          "Cost": 3203.0,
+          "Energy_Wh": 274.6010259738457,
+          "ServedRequestSeconds": 873.6771139484925,
+          "ServedRevenue": 393197.2955770805,
+          "ServedCost": 628165.6638798546,
+          "BootEnergy_J": 1000.0
+        }
+      ]
+    }
+  ],
+  "source_sha256": "5044a41f6451877f56d2104f64e2b0234aa4f9e151789cefe198a141de366556"
+}

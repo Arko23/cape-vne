@@ -1,0 +1,16 @@
+Metric,Value,Unit,OverallRank,PerLoadRanks,TopFiveLoads,MeanLeader
+Acceptance,76.75003002977151,%,1,1/1/1/1/1/2,6,ProposedAdaptive
+Admission revenue/cost,0.7046897530435549,ratio,3,1/3/4/6/7/7,3,VirnePSO
+Served revenue/cost,0.7049834451135718,ratio,3,1/2/4/6/7/7,3,VirnePSO
+Total energy,79966.14908168066,Wh,32,7/32/32/32/32/32,0,VirneFFD
+Energy/accepted request,89.50271861343128,Wh/request,2,2/1/3/3/4/7,5,GreenCostRouting
+Energy/served request-second,0.1840929396453935,Wh/request-second,2,2/1/1/3/4/6,5,GreenCostRouting
+Energy/served CPU-second,0.001320101397751079,Wh/CPU-unit-second,1,2/1/1/1/1/1,6,ProposedAdaptive
+Energy/served BW-second,0.0005589681393771705,Wh/BW-unit-second,1,1/1/1/1/1/1,6,ProposedAdaptive
+Mean embedding time,5.779637013489678,ms,6,6/6/7/9/9/9,0,GreedyCSP
+P95 embedding time,19.544763388848867,ms,6,6/6/10/10/10/10,0,VirneFFD
+P99 embedding time,40.11588107782379,ms,10,6/10/11/11/11/11,0,VirneFFD
+Total embedding time,8.39731945943906,seconds,7,6/6/7/9/9/9,0,GreedyCSP
+Mean hops,1.6209608138031992,hops,3,1/2/4/6/6/7,3,VirnePSO
+CPU utilization (highest usage),63.12173539271241,%,1,1/1/1/1/1/1,6,ProposedAdaptive
+BW utilization (highest usage),43.74019869707955,%,17,26/18/16/15/15/15,0,NodeRankSearch

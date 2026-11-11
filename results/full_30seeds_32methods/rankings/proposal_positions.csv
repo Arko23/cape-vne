@@ -1,0 +1,91 @@
+Lambda,Metric,MetricLabel,ProposalRank,Methods,PrimaryRank,ProposalMean,DisplayMean,Unit,TiedAlgorithms,MeanLeaders
+2.0,AcceptanceRatio,Acceptance,1,32,1,0.9975407436624946,99.75407436624945,%,ProposedAdaptive,ProposedAdaptive
+2.0,R_C,Admission revenue/cost,1,32,1,0.7831504588845256,0.7831504588845256,ratio,ProposedAdaptive,ProposedAdaptive
+2.0,Served_R_C,Served revenue/cost,1,32,1,0.7805592907015562,0.7805592907015562,ratio,ProposedAdaptive,ProposedAdaptive
+2.0,Energy_Wh,Total energy,7,32,5,46345.93959938777,46345.93959938777,Wh,ProposedAdaptive,VirneFFD
+2.0,EnergyPerAccepted_Wh,Energy/accepted request,2,32,1,119.43274378641726,119.43274378641726,Wh/request,ProposedAdaptive,GreenCostRouting
+2.0,EnergyPerServedRequestSecond_Wh,Energy/served request-second,2,32,1,0.24535891985458583,0.24535891985458583,Wh/request-second,ProposedAdaptive,GreenCostRouting
+2.0,EnergyPerServedCPUUnitSecond_Wh,Energy/served CPU-second,2,32,1,0.0016680540469997793,0.0016680540469997793,Wh/CPU-unit-second,ProposedAdaptive,GreenCostRouting
+2.0,EnergyPerServedBandwidthUnitSecond_Wh,Energy/served BW-second,1,32,1,0.000664816824088844,0.000664816824088844,Wh/BW-unit-second,ProposedAdaptive,ProposedAdaptive
+2.0,MeanEmbeddingTime,Mean embedding time,6,32,5,0.004023453396530942,4.023453396530942,ms,ProposedAdaptive,VirneFFD
+2.0,P95EmbeddingTime,P95 embedding time,6,32,5,0.008734786500031073,8.734786500031074,ms,ProposedAdaptive,VirneFFD
+2.0,P99EmbeddingTime,P99 embedding time,6,32,5,0.014150844866686376,14.150844866686377,ms,ProposedAdaptive,VirneFFD
+2.0,ExecutionTime,Total embedding time,6,32,5,1.5664158933329722,1.5664158933329722,seconds,ProposedAdaptive,VirneFFD
+2.0,MeanHops,Mean hops,1,32,1,1.3791368904270231,1.3791368904270231,hops,ProposedAdaptive,ProposedAdaptive
+2.0,NodeUtil,CPU utilization (highest usage),1,32,1,0.2792850845614017,27.92850845614017,%,ProposedAdaptive,ProposedAdaptive
+2.0,LinkUtil,BW utilization (highest usage),26,32,2,0.17794164577845623,17.794164577845624,%,ProposedAdaptive,NodeRankSearch
+4.0,AcceptanceRatio,Acceptance,1,32,1,0.9595572547442824,95.95572547442825,%,ProposedAdaptive,ProposedAdaptive
+4.0,R_C,Admission revenue/cost,3,32,2,0.7458280086325956,0.7458280086325956,ratio,ProposedAdaptive,CompactNoRepair
+4.0,Served_R_C,Served revenue/cost,2,32,1,0.7484362626781228,0.7484362626781228,ratio,ProposedAdaptive,CompactNoRepair
+4.0,Energy_Wh,Total energy,32,32,6,73575.11085989296,73575.11085989296,Wh,ProposedAdaptive,VirneFFD
+4.0,EnergyPerAccepted_Wh,Energy/accepted request,1,32,1,97.70231417765378,97.70231417765378,Wh/request,ProposedAdaptive,ProposedAdaptive
+4.0,EnergyPerServedRequestSecond_Wh,Energy/served request-second,1,32,1,0.20161849519743155,0.20161849519743155,Wh/request-second,ProposedAdaptive,ProposedAdaptive
+4.0,EnergyPerServedCPUUnitSecond_Wh,Energy/served CPU-second,1,32,1,0.001386416830125514,0.001386416830125514,Wh/CPU-unit-second,ProposedAdaptive,ProposedAdaptive
+4.0,EnergyPerServedBandwidthUnitSecond_Wh,Energy/served BW-second,1,32,1,0.0005598820041150967,0.0005598820041150967,Wh/BW-unit-second,ProposedAdaptive,ProposedAdaptive
+4.0,MeanEmbeddingTime,Mean embedding time,6,32,5,0.0053110788805240654,5.311078880524065,ms,ProposedAdaptive,GreedyCSP
+4.0,P95EmbeddingTime,P95 embedding time,6,32,5,0.014012632666616193,14.012632666616193,ms,ProposedAdaptive,VirneFFD
+4.0,P99EmbeddingTime,P99 embedding time,10,32,5,0.039549744500003384,39.549744500003385,ms,ProposedAdaptive,VirneFFD
+4.0,ExecutionTime,Total embedding time,6,32,5,4.1738517233256065,4.1738517233256065,seconds,ProposedAdaptive,GreedyCSP
+4.0,MeanHops,Mean hops,2,32,1,1.4816906590424153,1.4816906590424153,hops,ProposedAdaptive,CompactNoRepair
+4.0,NodeUtil,CPU utilization (highest usage),1,32,1,0.5330403442983772,53.30403442983772,%,ProposedAdaptive,ProposedAdaptive
+4.0,LinkUtil,BW utilization (highest usage),18,32,1,0.353804253230759,35.3804253230759,%,ProposedAdaptive,NodeRankSearch
+6.0,AcceptanceRatio,Acceptance,1,32,1,0.8243197227708259,82.4319722770826,%,ProposedAdaptive,ProposedAdaptive
+6.0,R_C,Admission revenue/cost,4,32,2,0.6995099111564843,0.6995099111564843,ratio,ProposedAdaptive,VirnePSO
+6.0,Served_R_C,Served revenue/cost,4,32,2,0.7001206774514891,0.7001206774514891,ratio,ProposedAdaptive,VirnePSO
+6.0,Energy_Wh,Total energy,32,32,6,85101.74285131576,85101.74285131576,Wh,ProposedAdaptive,VirneFFD
+6.0,EnergyPerAccepted_Wh,Energy/accepted request,3,32,1,86.75547564639375,86.75547564639375,Wh/request,ProposedAdaptive,GreenCostRouting
+6.0,EnergyPerServedRequestSecond_Wh,Energy/served request-second,1,32,1,0.1782242624130723,0.1782242624130723,Wh/request-second,ProposedAdaptive,ProposedAdaptive
+6.0,EnergyPerServedCPUUnitSecond_Wh,Energy/served CPU-second,1,32,1,0.0012648850859658387,0.0012648850859658387,Wh/CPU-unit-second,ProposedAdaptive,ProposedAdaptive
+6.0,EnergyPerServedBandwidthUnitSecond_Wh,Energy/served BW-second,1,32,1,0.0005293867924779544,0.0005293867924779544,Wh/BW-unit-second,ProposedAdaptive,ProposedAdaptive
+6.0,MeanEmbeddingTime,Mean embedding time,7,32,5,0.006621165391039633,6.621165391039633,ms,ProposedAdaptive,GreedyCSP
+6.0,P95EmbeddingTime,P95 embedding time,10,32,5,0.023889056833252948,23.889056833252948,ms,ProposedAdaptive,VirneFFD
+6.0,P99EmbeddingTime,P99 embedding time,11,32,5,0.0474888100336702,47.4888100336702,ms,ProposedAdaptive,VirneFFD
+6.0,ExecutionTime,Total embedding time,7,32,5,7.8937620199986975,7.8937620199986975,seconds,ProposedAdaptive,GreedyCSP
+6.0,MeanHops,Mean hops,4,32,2,1.6250327372157707,1.6250327372157707,hops,ProposedAdaptive,VirnePSO
+6.0,NodeUtil,CPU utilization (highest usage),1,32,1,0.6756500627054133,67.56500627054133,%,ProposedAdaptive,ProposedAdaptive
+6.0,LinkUtil,BW utilization (highest usage),16,32,1,0.47216669381120724,47.216669381120724,%,ProposedAdaptive,NodeRankSearch
+8.0,AcceptanceRatio,Acceptance,1,32,1,0.6999091667134592,69.99091667134591,%,ProposedAdaptive,ProposedAdaptive
+8.0,R_C,Admission revenue/cost,6,32,4,0.6779511858220537,0.6779511858220537,ratio,ProposedAdaptive,VirnePSO
+8.0,Served_R_C,Served revenue/cost,6,32,4,0.6791940749174452,0.6791940749174452,ratio,ProposedAdaptive,VirnePSO
+8.0,Energy_Wh,Total energy,32,32,6,89568.70684989533,89568.70684989533,Wh,ProposedAdaptive,VirneFFD
+8.0,EnergyPerAccepted_Wh,Energy/accepted request,3,32,1,80.70059418927563,80.70059418927563,Wh/request,ProposedAdaptive,GreenCostRouting
+8.0,EnergyPerServedRequestSecond_Wh,Energy/served request-second,3,32,1,0.16645831797317714,0.16645831797317714,Wh/request-second,ProposedAdaptive,CompactNoRepair
+8.0,EnergyPerServedCPUUnitSecond_Wh,Energy/served CPU-second,1,32,1,0.0012193752026027273,0.0012193752026027273,Wh/CPU-unit-second,ProposedAdaptive,ProposedAdaptive
+8.0,EnergyPerServedBandwidthUnitSecond_Wh,Energy/served BW-second,1,32,1,0.0005279677287743728,0.0005279677287743728,Wh/BW-unit-second,ProposedAdaptive,ProposedAdaptive
+8.0,MeanEmbeddingTime,Mean embedding time,9,32,5,0.00662620861943954,6.626208619439541,ms,ProposedAdaptive,GreedyCSP
+8.0,P95EmbeddingTime,P95 embedding time,10,32,5,0.024579179833569147,24.579179833569146,ms,ProposedAdaptive,VirneFFD
+8.0,P99EmbeddingTime,P99 embedding time,11,32,5,0.048386239966583755,48.38623996658376,ms,ProposedAdaptive,VirneFFD
+8.0,ExecutionTime,Total embedding time,9,32,5,10.522966830010045,10.522966830010045,seconds,ProposedAdaptive,GreedyCSP
+8.0,MeanHops,Mean hops,6,32,4,1.7019589582843615,1.7019589582843615,hops,ProposedAdaptive,VirnePSO
+8.0,NodeUtil,CPU utilization (highest usage),1,32,1,0.7376153075809739,73.7615307580974,%,ProposedAdaptive,ProposedAdaptive
+8.0,LinkUtil,BW utilization (highest usage),15,32,1,0.5195460053440244,51.95460053440244,%,ProposedAdaptive,NodeRankSearch
+10.0,AcceptanceRatio,Acceptance,1,32,1,0.5996505774399393,59.96505774399393,%,ProposedAdaptive,ProposedAdaptive
+10.0,R_C,Admission revenue/cost,7,32,5,0.6647906169417503,0.6647906169417503,ratio,ProposedAdaptive,VirnePSO
+10.0,Served_R_C,Served revenue/cost,7,32,5,0.6657503358151177,0.6657503358151177,ratio,ProposedAdaptive,VirnePSO
+10.0,Energy_Wh,Total energy,32,32,6,91894.2319542969,91894.2319542969,Wh,ProposedAdaptive,VirneFFD
+10.0,EnergyPerAccepted_Wh,Energy/accepted request,4,32,2,77.43545812997503,77.43545812997503,Wh/request,ProposedAdaptive,GreenCostRouting
+10.0,EnergyPerServedRequestSecond_Wh,Energy/served request-second,4,32,2,0.1588944487536964,0.1588944487536964,Wh/request-second,ProposedAdaptive,GreenCostRouting
+10.0,EnergyPerServedCPUUnitSecond_Wh,Energy/served CPU-second,1,32,1,0.0011970622623011732,0.0011970622623011732,Wh/CPU-unit-second,ProposedAdaptive,ProposedAdaptive
+10.0,EnergyPerServedBandwidthUnitSecond_Wh,Energy/served BW-second,1,32,1,0.0005334265982627053,0.0005334265982627053,Wh/BW-unit-second,ProposedAdaptive,ProposedAdaptive
+10.0,MeanEmbeddingTime,Mean embedding time,9,32,5,0.0063775273902460855,6.377527390246086,ms,ProposedAdaptive,GreedyCSP
+10.0,P95EmbeddingTime,P95 embedding time,10,32,5,0.02414776266674985,24.14776266674985,ms,ProposedAdaptive,VirneFFD
+10.0,P99EmbeddingTime,P99 embedding time,11,32,5,0.04670069666671649,46.70069666671649,ms,ProposedAdaptive,VirneFFD
+10.0,ExecutionTime,Total embedding time,9,32,5,12.632122899992343,12.632122899992343,seconds,ProposedAdaptive,GreedyCSP
+10.0,MeanHops,Mean hops,6,32,4,1.752679670957752,1.752679670957752,hops,ProposedAdaptive,VirnePSO
+10.0,NodeUtil,CPU utilization (highest usage),1,32,1,0.7708649472370567,77.08649472370567,%,ProposedAdaptive,ProposedAdaptive
+10.0,LinkUtil,BW utilization (highest usage),15,32,1,0.5429110121398415,54.29110121398415,%,ProposedAdaptive,NodeRankSearch
+12.0,AcceptanceRatio,Acceptance,2,32,1,0.5240243364552891,52.40243364552891,%,ProposedAdaptive,GreenCostRouting
+12.0,R_C,Admission revenue/cost,7,32,5,0.6569083368239197,0.6569083368239197,ratio,ProposedAdaptive,VirnePSO
+12.0,Served_R_C,Served revenue/cost,7,32,5,0.6558400291177002,0.6558400291177002,ratio,ProposedAdaptive,VirnePSO
+12.0,Energy_Wh,Total energy,32,32,6,93311.16237529524,93311.16237529524,Wh,ProposedAdaptive,VirneFFD
+12.0,EnergyPerAccepted_Wh,Energy/accepted request,7,32,2,74.9897257508722,74.9897257508722,Wh/request,ProposedAdaptive,VirnePSO
+12.0,EnergyPerServedRequestSecond_Wh,Energy/served request-second,6,32,2,0.15400319368039778,0.15400319368039778,Wh/request-second,ProposedAdaptive,VirnePSO
+12.0,EnergyPerServedCPUUnitSecond_Wh,Energy/served CPU-second,1,32,1,0.001184814958511441,0.001184814958511441,Wh/CPU-unit-second,ProposedAdaptive,ProposedAdaptive
+12.0,EnergyPerServedBandwidthUnitSecond_Wh,Energy/served BW-second,1,32,1,0.0005383288885440491,0.0005383288885440491,Wh/BW-unit-second,ProposedAdaptive,ProposedAdaptive
+12.0,MeanEmbeddingTime,Mean embedding time,9,32,5,0.005718388403157795,5.718388403157795,ms,ProposedAdaptive,GreedyCSP
+12.0,P95EmbeddingTime,P95 embedding time,10,32,5,0.02190516183287399,21.90516183287399,ms,ProposedAdaptive,VirneFFD
+12.0,P99EmbeddingTime,P99 embedding time,11,32,5,0.04441895043328257,44.41895043328257,ms,ProposedAdaptive,VirneFFD
+12.0,ExecutionTime,Total embedding time,9,32,5,13.594797389974701,13.594797389974701,seconds,ProposedAdaptive,GreedyCSP
+12.0,MeanHops,Mean hops,7,32,5,1.785265966891872,1.785265966891872,hops,ProposedAdaptive,VirnePSO
+12.0,NodeUtil,CPU utilization (highest usage),1,32,1,0.7908483771795215,79.08483771795215,%,ProposedAdaptive,ProposedAdaptive
+12.0,LinkUtil,BW utilization (highest usage),15,32,1,0.5580423115204844,55.804231152048445,%,ProposedAdaptive,NodeRankSearch

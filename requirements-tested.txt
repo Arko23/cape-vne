@@ -1,0 +1,7 @@
+# Pinned direct dependencies, locally verified 2026-10-07.
+# Python 3.13.14 on Windows; includes the reference policies' NetworkX router.
+numpy==2.2.6
+pandas==2.3.1
+scipy==1.16.0
+matplotlib==3.10.5
+networkx==3.5
